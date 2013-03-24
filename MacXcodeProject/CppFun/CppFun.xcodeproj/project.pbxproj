@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3328D1F16AB4D5000F614A2 /* BasicBoost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3328D1E16AB4D5000F614A2 /* BasicBoost.cpp */; };
+		D3328D2516AB5EF800F614A2 /* DisneyAnimal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3328D2316AB5EF800F614A2 /* DisneyAnimal.cpp */; };
+		D3328D2816AB60A700F614A2 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3328D2616AB60A700F614A2 /* Animal.cpp */; };
+		D3328D2B16AB625A00F614A2 /* MickeyMouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3328D2916AB625A00F614A2 /* MickeyMouse.cpp */; };
 		D34F553016A7E05400B2FAC4 /* CppStuff.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D34F552F16A7E05400B2FAC4 /* CppStuff.1 */; };
 		D34F553416A7E0ED00B2FAC4 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D34F552316A7DFAC00B2FAC4 /* HelloWorld.cpp */; };
 /* End PBXBuildFile section */
@@ -25,9 +29,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D3328D1D16AB4CE300F614A2 /* BasicBoost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicBoost.h; sourceTree = "<group>"; };
+		D3328D1E16AB4D5000F614A2 /* BasicBoost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicBoost.cpp; sourceTree = "<group>"; };
+		D3328D2316AB5EF800F614A2 /* DisneyAnimal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DisneyAnimal.cpp; sourceTree = "<group>"; };
+		D3328D2416AB5EF800F614A2 /* DisneyAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisneyAnimal.h; sourceTree = "<group>"; };
+		D3328D2616AB60A700F614A2 /* Animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		D3328D2716AB60A700F614A2 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		D3328D2916AB625A00F614A2 /* MickeyMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MickeyMouse.cpp; sourceTree = "<group>"; };
+		D3328D2A16AB625A00F614A2 /* MickeyMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MickeyMouse.h; sourceTree = "<group>"; };
+		D3328D2C16AB62E000F614A2 /* CppFunNamespaceDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppFunNamespaceDefinitions.h; sourceTree = "<group>"; };
 		D34F552316A7DFAC00B2FAC4 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		D34F552916A7E05400B2FAC4 /* CppStuff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppStuff; sourceTree = BUILT_PRODUCTS_DIR; };
-		D34F552D16A7E05400B2FAC4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D34F552F16A7E05400B2FAC4 /* CppStuff.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CppStuff.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,9 +54,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3328D1B16AB4C8100F614A2 /* Boost */ = {
+			isa = PBXGroup;
+			children = (
+				D3328D1D16AB4CE300F614A2 /* BasicBoost.h */,
+				D3328D1E16AB4D5000F614A2 /* BasicBoost.cpp */,
+			);
+			name = Boost;
+			sourceTree = "<group>";
+		};
+		D3328D2016AB5ED100F614A2 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				D3328D2D16AB6CEF00F614A2 /* Accounting */,
+				D3328D2116AB5ED900F614A2 /* Animals */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		D3328D2116AB5ED900F614A2 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				D3328D2216AB5EE200F614A2 /* DisneyAnimal */,
+				D3328D2616AB60A700F614A2 /* Animal.cpp */,
+				D3328D2716AB60A700F614A2 /* Animal.h */,
+			);
+			name = Animals;
+			sourceTree = "<group>";
+		};
+		D3328D2216AB5EE200F614A2 /* DisneyAnimal */ = {
+			isa = PBXGroup;
+			children = (
+				D3328D2316AB5EF800F614A2 /* DisneyAnimal.cpp */,
+				D3328D2416AB5EF800F614A2 /* DisneyAnimal.h */,
+				D3328D2916AB625A00F614A2 /* MickeyMouse.cpp */,
+				D3328D2A16AB625A00F614A2 /* MickeyMouse.h */,
+			);
+			name = DisneyAnimal;
+			sourceTree = "<group>";
+		};
+		D3328D2D16AB6CEF00F614A2 /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Accounting;
+			sourceTree = "<group>";
+		};
 		D34F551A16A7DF8700B2FAC4 = {
 			isa = PBXGroup;
 			children = (
+				D3328D2C16AB62E000F614A2 /* CppFunNamespaceDefinitions.h */,
+				D3328D2016AB5ED100F614A2 /* Types */,
+				D3328D1B16AB4C8100F614A2 /* Boost */,
 				D34F552316A7DFAC00B2FAC4 /* HelloWorld.cpp */,
 				D34F552C16A7E05400B2FAC4 /* CppStuff */,
 				D34F552A16A7E05400B2FAC4 /* Products */,
@@ -62,7 +123,6 @@
 		D34F552C16A7E05400B2FAC4 /* CppStuff */ = {
 			isa = PBXGroup;
 			children = (
-				D34F552D16A7E05400B2FAC4 /* main.cpp */,
 				D34F552F16A7E05400B2FAC4 /* CppStuff.1 */,
 			);
 			path = CppStuff;
@@ -119,6 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34F553416A7E0ED00B2FAC4 /* HelloWorld.cpp in Sources */,
+				D3328D1F16AB4D5000F614A2 /* BasicBoost.cpp in Sources */,
+				D3328D2516AB5EF800F614A2 /* DisneyAnimal.cpp in Sources */,
+				D3328D2816AB60A700F614A2 /* Animal.cpp in Sources */,
+				D3328D2B16AB625A00F614A2 /* MickeyMouse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,12 +192,18 @@
 		D34F552116A7DF8700B2FAC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/Brian/Downloads/boost_1_52_0;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/Brian/Downloads/boost_1_52_0/stage/lib;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /Users/Brian/Downloads/boost_1_52_0;
 			};
 			name = Debug;
 		};
 		D34F552216A7DF8700B2FAC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/Brian/Downloads/boost_1_52_0;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /Users/Brian/Downloads/boost_1_52_0/stage/lib;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /Users/Brian/Downloads/boost_1_52_0;
 			};
 			name = Release;
 		};
@@ -211,6 +281,7 @@
 				D34F553316A7E05400B2FAC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
