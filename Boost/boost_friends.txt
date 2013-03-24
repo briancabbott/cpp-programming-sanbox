@@ -1,0 +1,1857 @@
+algorithm/string/find_iterator.hpp:            friend class ::boost::iterator_core_access;
+algorithm/string/find_iterator.hpp:            friend class ::boost::iterator_core_access;
+any.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+any.hpp:    public: // types (public so any_cast can be non-friend)
+any.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+any.hpp:        friend ValueType * any_cast(any *);
+any.hpp:        friend ValueType * unsafe_any_cast(any *);
+any.hpp:    public: // representation (public so any_cast can be non-friend)
+archive/basic_binary_iarchive.hpp:    friend detail::interface_iarchive<Archive>;
+archive/basic_binary_iarchive.hpp:    friend class detail::interface_iarchive<Archive>;
+archive/basic_binary_iprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/basic_binary_iprimitive.hpp:    friend class load_access;
+archive/basic_binary_oarchive.hpp:    friend detail::interface_oarchive<Archive>;
+archive/basic_binary_oarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/basic_binary_oprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/basic_binary_oprimitive.hpp:    friend class save_access;
+archive/basic_text_iarchive.hpp:    friend detail::interface_iarchive<Archive>;
+archive/basic_text_iarchive.hpp:    friend class detail::interface_iarchive<Archive>;
+archive/basic_text_iprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/basic_text_oarchive.hpp:    friend detail::interface_oarchive<Archive>;
+archive/basic_text_oarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/basic_text_oprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/basic_xml_iarchive.hpp:    friend detail::interface_oarchive<Archive>;
+archive/basic_xml_iarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/basic_xml_oarchive.hpp:    friend detail::interface_oarchive<Archive>;
+archive/basic_xml_oarchive.hpp:    friend class save_access;
+archive/basic_xml_oarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/basic_xml_oarchive.hpp:    friend class save_access;
+archive/binary_iarchive_impl.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/binary_iarchive_impl.hpp:    friend class detail::interface_iarchive<Archive>;
+archive/binary_iarchive_impl.hpp:    friend class basic_binary_iarchive<Archive>;
+archive/binary_iarchive_impl.hpp:    friend class load_access;
+archive/binary_oarchive_impl.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/binary_oarchive_impl.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/binary_oarchive_impl.hpp:    friend class basic_binary_oarchive<Archive>;
+archive/binary_oarchive_impl.hpp:    friend class save_access;
+archive/detail/basic_iarchive.hpp:    friend class basic_iarchive_impl;
+archive/detail/basic_oarchive.hpp:    friend class basic_oarchive_impl;
+archive/detail/common_iarchive.hpp:    friend class interface_iarchive<Archive>;
+archive/detail/common_oarchive.hpp:    friend class interface_oarchive<Archive>;
+archive/detail/iserializer.hpp:// an accessor to permit friend access to archives.  Needed because
+archive/detail/iserializer.hpp:// some compilers don't handle friend templates completely
+archive/detail/oserializer.hpp:// an accessor to permit friend access to archives.  Needed because
+archive/detail/oserializer.hpp:// some compilers don't handle friend templates completely
+archive/detail/register_archive.hpp:// friendly layer of indirection.
+archive/impl/basic_xml_grammar.hpp:    friend struct return_values;
+archive/iterators/base64_from_binary.hpp:    friend class boost::iterator_core_access;
+archive/iterators/binary_from_base64.hpp:    friend class boost::iterator_core_access;
+archive/iterators/escape.hpp:    friend class boost::iterator_core_access;
+archive/iterators/head_iterator.hpp:    friend class iterator_core_access;
+archive/iterators/insert_linebreaks.hpp:    friend class boost::iterator_core_access;
+archive/iterators/istream_iterator.hpp:    friend class boost::iterator_core_access;
+archive/iterators/mb_from_wchar.hpp:    friend class boost::iterator_core_access;
+archive/iterators/ostream_iterator.hpp:    friend class boost::iterator_core_access;
+archive/iterators/remove_whitespace.hpp:    friend class boost::iterator_core_access;
+archive/iterators/remove_whitespace.hpp:    friend class boost::iterator_core_access;
+archive/iterators/transform_width.hpp:    friend class boost::iterator_core_access;
+archive/iterators/unescape.hpp:    friend class boost::iterator_core_access;
+archive/iterators/wchar_from_mb.hpp:    friend class boost::iterator_core_access;
+archive/iterators/xml_escape.hpp:    friend class boost::iterator_core_access;
+archive/iterators/xml_unescape.hpp:    friend class boost::iterator_core_access;
+archive/polymorphic_iarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/polymorphic_iarchive.hpp:    friend class detail::interface_iarchive<polymorphic_iarchive>;
+archive/polymorphic_iarchive.hpp:    friend class load_access;
+archive/polymorphic_oarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/polymorphic_oarchive.hpp:    friend class detail::interface_oarchive<polymorphic_oarchive>;
+archive/polymorphic_oarchive.hpp:    friend class save_access;
+archive/shared_ptr_helper.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/shared_ptr_helper.hpp:    friend inline void boost::serialization::load(
+archive/text_iarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/text_iarchive.hpp:    friend class detail::interface_iarchive<Archive>;
+archive/text_iarchive.hpp:    friend class basic_text_iarchive<Archive>;
+archive/text_iarchive.hpp:    friend class load_access;
+archive/text_oarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/text_oarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/text_oarchive.hpp:    friend class basic_text_oarchive<Archive>;
+archive/text_oarchive.hpp:    friend class save_access;
+archive/text_wiarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/text_wiarchive.hpp:    friend class detail::interface_iarchive<Archive>;
+archive/text_wiarchive.hpp:    friend class basic_text_iarchive<Archive>;
+archive/text_wiarchive.hpp:    friend class load_access;
+archive/text_woarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/text_woarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/text_woarchive.hpp:    friend class basic_text_oarchive<Archive>;
+archive/text_woarchive.hpp:    friend class save_access;
+archive/xml_iarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/xml_iarchive.hpp:    friend class detail::interface_iarchive<Archive>;
+archive/xml_iarchive.hpp:    friend class basic_xml_iarchive<Archive>;
+archive/xml_iarchive.hpp:    friend class load_access;
+archive/xml_oarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/xml_oarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/xml_oarchive.hpp:    friend class basic_xml_oarchive<Archive>;
+archive/xml_oarchive.hpp:    friend class save_access;
+archive/xml_wiarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/xml_wiarchive.hpp:    friend class detail::interface_iarchive<Archive>;
+archive/xml_wiarchive.hpp:    friend class basic_xml_iarchive<Archive>;
+archive/xml_wiarchive.hpp:    friend class load_access;
+archive/xml_woarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+archive/xml_woarchive.hpp:    friend class detail::interface_oarchive<Archive>;
+archive/xml_woarchive.hpp:    friend class basic_xml_oarchive<Archive>;
+archive/xml_woarchive.hpp:    friend class save_access;
+asio/basic_socket_streambuf.hpp:  friend struct io_handler;
+asio/basic_socket_streambuf.hpp:  friend struct timer_handler;
+asio/basic_streambuf.hpp:  friend std::size_t read_size_helper(
+asio/buffer.hpp:  friend void* boost::asio::detail::buffer_cast_helper(
+asio/buffer.hpp:  friend std::size_t boost::asio::detail::buffer_size_helper(
+asio/buffer.hpp:  friend const void* boost::asio::detail::buffer_cast_helper(
+asio/buffer.hpp:  friend std::size_t boost::asio::detail::buffer_size_helper(
+asio/buffers_iterator.hpp:  friend buffers_iterator operator+(const buffers_iterator& iter,
+asio/buffers_iterator.hpp:  friend buffers_iterator operator+(std::ptrdiff_t difference,
+asio/buffers_iterator.hpp:  friend buffers_iterator operator-(const buffers_iterator& iter,
+asio/buffers_iterator.hpp:  friend std::ptrdiff_t operator-(const buffers_iterator& a,
+asio/buffers_iterator.hpp:  friend bool operator==(const buffers_iterator& a, const buffers_iterator& b)
+asio/buffers_iterator.hpp:  friend bool operator!=(const buffers_iterator& a, const buffers_iterator& b)
+asio/buffers_iterator.hpp:  friend bool operator<(const buffers_iterator& a, const buffers_iterator& b)
+asio/buffers_iterator.hpp:  friend bool operator<=(const buffers_iterator& a, const buffers_iterator& b)
+asio/buffers_iterator.hpp:  friend bool operator>(const buffers_iterator& a, const buffers_iterator& b)
+asio/buffers_iterator.hpp:  friend bool operator>=(const buffers_iterator& a, const buffers_iterator& b)
+asio/detail/call_stack.hpp:    friend class call_stack<Key, Value>;
+asio/detail/call_stack.hpp:  friend class context;
+asio/detail/consuming_buffers.hpp:  friend bool operator==(const consuming_buffers_iterator& a,
+asio/detail/consuming_buffers.hpp:  friend bool operator!=(const consuming_buffers_iterator& a,
+asio/detail/dev_poll_reactor.hpp:  friend class fork_helper;
+asio/detail/epoll_reactor.hpp:    friend class epoll_reactor;
+asio/detail/epoll_reactor.hpp:    friend class object_pool_access;
+asio/detail/epoll_reactor.hpp:  friend struct perform_io_cleanup_on_block_exit;
+asio/detail/handler_tracking.hpp:    friend class handler_tracking;
+asio/detail/handler_tracking.hpp:    friend class completion;
+asio/detail/handler_tracking.hpp:    friend class handler_tracking;
+asio/detail/kqueue_reactor.hpp:    friend class kqueue_reactor;
+asio/detail/kqueue_reactor.hpp:    friend class object_pool_access;
+asio/detail/op_queue.hpp:  friend class op_queue_access;
+asio/detail/posix_mutex.hpp:  friend class posix_event;
+asio/detail/posix_thread.hpp:  friend void* boost_asio_detail_posix_thread_function(void* arg);
+asio/detail/reactive_descriptor_service.hpp:    friend class reactive_descriptor_service;
+asio/detail/service_registry.hpp:  friend struct auto_service_ptr;
+asio/detail/signal_set_service.hpp:    friend class signal_set_service;
+asio/detail/signal_set_service.hpp:    friend class signal_set_service;
+asio/detail/strand_service.hpp:    friend class strand_service;
+asio/detail/strand_service.hpp:    friend struct on_do_complete_exit;
+asio/detail/strand_service.hpp:    friend struct on_dispatch_exit;
+asio/detail/task_io_service.hpp:  friend struct task_cleanup;
+asio/detail/task_io_service.hpp:  friend struct work_cleanup;
+asio/detail/task_io_service_operation.hpp:  friend class op_queue_access;
+asio/detail/task_io_service_operation.hpp:  friend class task_io_service;
+asio/detail/timer_queue.hpp:    friend class timer_queue;
+asio/detail/timer_queue_base.hpp:  friend class timer_queue_set;
+asio/detail/win_iocp_handle_service.hpp:    friend class win_iocp_handle_service;
+asio/detail/win_iocp_io_service.hpp:  friend struct timer_thread_function;
+asio/detail/win_iocp_operation.hpp:  friend class op_queue_access;
+asio/detail/win_iocp_operation.hpp:  friend class win_iocp_io_service;
+asio/detail/win_object_handle_service.hpp:    friend class win_object_handle_service;
+asio/detail/win_thread.hpp:  friend BOOST_ASIO_DECL unsigned int __stdcall win_thread_function(void* arg);
+asio/detail/win_thread.hpp:  friend BOOST_ASIO_DECL void __stdcall apc_function(ULONG);
+asio/detail/win_thread.hpp:  friend BOOST_ASIO_DECL void __stdcall apc_function(ULONG_PTR);
+asio/detail/wince_thread.hpp:  friend DWORD WINAPI wince_thread_function(LPVOID arg);
+asio/io_service.hpp:  friend class detail::win_iocp_overlapped_ptr;
+asio/io_service.hpp:  friend class work;
+asio/io_service.hpp:  friend Service& use_service(io_service& ios);
+asio/io_service.hpp:  friend void add_service(io_service& ios, Service* svc);
+asio/io_service.hpp:  friend bool has_service(io_service& ios);
+asio/io_service.hpp:  friend class boost::asio::detail::service_registry;
+asio/ip/address.hpp:  BOOST_ASIO_DECL friend bool operator==(const address& a1, const address& a2);
+asio/ip/address.hpp:  friend bool operator!=(const address& a1, const address& a2)
+asio/ip/address.hpp:  BOOST_ASIO_DECL friend bool operator<(const address& a1, const address& a2);
+asio/ip/address.hpp:  friend bool operator>(const address& a1, const address& a2)
+asio/ip/address.hpp:  friend bool operator<=(const address& a1, const address& a2)
+asio/ip/address.hpp:  friend bool operator>=(const address& a1, const address& a2)
+asio/ip/address_v4.hpp:  friend bool operator==(const address_v4& a1, const address_v4& a2)
+asio/ip/address_v4.hpp:  friend bool operator!=(const address_v4& a1, const address_v4& a2)
+asio/ip/address_v4.hpp:  friend bool operator<(const address_v4& a1, const address_v4& a2)
+asio/ip/address_v4.hpp:  friend bool operator>(const address_v4& a1, const address_v4& a2)
+asio/ip/address_v4.hpp:  friend bool operator<=(const address_v4& a1, const address_v4& a2)
+asio/ip/address_v4.hpp:  friend bool operator>=(const address_v4& a1, const address_v4& a2)
+asio/ip/address_v6.hpp:  BOOST_ASIO_DECL friend bool operator==(
+asio/ip/address_v6.hpp:  friend bool operator!=(const address_v6& a1, const address_v6& a2)
+asio/ip/address_v6.hpp:  BOOST_ASIO_DECL friend bool operator<(
+asio/ip/address_v6.hpp:  friend bool operator>(const address_v6& a1, const address_v6& a2)
+asio/ip/address_v6.hpp:  friend bool operator<=(const address_v6& a1, const address_v6& a2)
+asio/ip/address_v6.hpp:  friend bool operator>=(const address_v6& a1, const address_v6& a2)
+asio/ip/basic_endpoint.hpp:  friend bool operator==(const basic_endpoint<InternetProtocol>& e1,
+asio/ip/basic_endpoint.hpp:  friend bool operator!=(const basic_endpoint<InternetProtocol>& e1,
+asio/ip/basic_endpoint.hpp:  friend bool operator<(const basic_endpoint<InternetProtocol>& e1,
+asio/ip/basic_endpoint.hpp:  friend bool operator>(const basic_endpoint<InternetProtocol>& e1,
+asio/ip/basic_endpoint.hpp:  friend bool operator<=(const basic_endpoint<InternetProtocol>& e1,
+asio/ip/basic_endpoint.hpp:  friend bool operator>=(const basic_endpoint<InternetProtocol>& e1,
+asio/ip/basic_resolver_iterator.hpp:  friend bool operator==(const basic_resolver_iterator& a,
+asio/ip/basic_resolver_iterator.hpp:  friend bool operator!=(const basic_resolver_iterator& a,
+asio/ip/detail/endpoint.hpp:  BOOST_ASIO_DECL friend bool operator==(
+asio/ip/detail/endpoint.hpp:  BOOST_ASIO_DECL friend bool operator<(
+asio/ip/icmp.hpp:  friend bool operator==(const icmp& p1, const icmp& p2)
+asio/ip/icmp.hpp:  friend bool operator!=(const icmp& p1, const icmp& p2)
+asio/ip/resolver_query_base.hpp:  friend flags operator&(flags x, flags y)
+asio/ip/resolver_query_base.hpp:  friend flags operator|(flags x, flags y)
+asio/ip/resolver_query_base.hpp:  friend flags operator^(flags x, flags y)
+asio/ip/resolver_query_base.hpp:  friend flags operator~(flags x)
+asio/ip/resolver_query_base.hpp:  friend flags& operator&=(flags& x, flags y)
+asio/ip/resolver_query_base.hpp:  friend flags& operator|=(flags& x, flags y)
+asio/ip/resolver_query_base.hpp:  friend flags& operator^=(flags& x, flags y)
+asio/ip/tcp.hpp:  friend bool operator==(const tcp& p1, const tcp& p2)
+asio/ip/tcp.hpp:  friend bool operator!=(const tcp& p1, const tcp& p2)
+asio/ip/udp.hpp:  friend bool operator==(const udp& p1, const udp& p2)
+asio/ip/udp.hpp:  friend bool operator!=(const udp& p1, const udp& p2)
+asio/local/basic_endpoint.hpp:  friend bool operator==(const basic_endpoint<Protocol>& e1,
+asio/local/basic_endpoint.hpp:  friend bool operator!=(const basic_endpoint<Protocol>& e1,
+asio/local/basic_endpoint.hpp:  friend bool operator<(const basic_endpoint<Protocol>& e1,
+asio/local/basic_endpoint.hpp:  friend bool operator>(const basic_endpoint<Protocol>& e1,
+asio/local/basic_endpoint.hpp:  friend bool operator<=(const basic_endpoint<Protocol>& e1,
+asio/local/basic_endpoint.hpp:  friend bool operator>=(const basic_endpoint<Protocol>& e1,
+asio/local/detail/endpoint.hpp:  BOOST_ASIO_DECL friend bool operator==(
+asio/local/detail/endpoint.hpp:  BOOST_ASIO_DECL friend bool operator<(
+assign/list_of.hpp:        friend struct adapter_converter;
+atomic/detail/gcc-ppc.hpp:    name "MPCFPE32B.pdf", Google is your friend...)
+bimap/bimap.hpp:    friend class boost::serialization::access;
+bimap/detail/map_view_base.hpp:#define BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(TYPE,TAG,BIMAP)                      \
+bimap/detail/map_view_base.hpp:        TYPE<TAG,BIMAP>,TAG,BIMAP > friend_map_view_base;                     \
+bimap/detail/map_view_base.hpp:    friend class friend_map_view_base;
+bimap/detail/map_view_base.hpp:#define BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(TYPE,TAG,BIMAP)                      \
+bimap/detail/map_view_base.hpp:    friend class ::boost::bimaps::detail::map_view_base<                      \
+bimap/detail/map_view_iterator.hpp:    friend class ::boost::serialization::access;                              \
+bimap/detail/map_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/map_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/map_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/map_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/map_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/map_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/set_view_base.hpp:#define BOOST_BIMAP_SET_VIEW_BASE_FRIEND(TYPE,INDEX_TYPE)                     \
+bimap/detail/set_view_base.hpp:        TYPE< INDEX_TYPE >, INDEX_TYPE > template_class_friend;               \
+bimap/detail/set_view_base.hpp:    friend class template_class_friend;
+bimap/detail/set_view_base.hpp:#define BOOST_BIMAP_SET_VIEW_BASE_FRIEND(TYPE,INDEX_TYPE)                     \
+bimap/detail/set_view_base.hpp:    friend class ::boost::bimaps::detail::set_view_base<                      \
+bimap/detail/set_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/set_view_iterator.hpp:    friend class ::boost::serialization::access;
+bimap/detail/set_view_iterator.hpp:    friend class iterator_core_access;
+bimap/detail/set_view_iterator.hpp:    friend class ::boost::serialization::access;
+bimap/relation/mutant_relation.hpp:    friend class ::boost::serialization::access;
+bimap/tags/tagged.hpp:friendly way of specifying a tag but is very invasive from the library writer's
+bimap/tags/tagged.hpp:and user-friendly. With the use of the defined metafunctions the library
+bimap/views/list_map_view.hpp:    BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(list_map_view,Tag,BimapType)
+bimap/views/list_set_view.hpp:    BOOST_BIMAP_SET_VIEW_BASE_FRIEND(list_set_view,CoreIndex)
+bimap/views/map_view.hpp:    BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(map_view,Tag,BimapType)
+bimap/views/multimap_view.hpp:    BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(multimap_view,Tag,BimapType)
+bimap/views/multiset_view.hpp:    BOOST_BIMAP_SET_VIEW_BASE_FRIEND(multiset_view, CoreIndex)
+bimap/views/set_view.hpp:    BOOST_BIMAP_SET_VIEW_BASE_FRIEND(set_view,CoreIndex)
+bimap/views/unordered_map_view.hpp:    BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(unordered_map_view,Tag,BimapType)
+bimap/views/unordered_multimap_view.hpp:    BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(unordered_multimap_view,Tag,BimapType)
+bimap/views/unordered_multiset_view.hpp:    BOOST_BIMAP_SET_VIEW_BASE_FRIEND(unordered_multiset_view,CoreIndex)
+bimap/views/unordered_set_view.hpp:    BOOST_BIMAP_SET_VIEW_BASE_FRIEND(unordered_set_view,CoreIndex)
+bimap/views/vector_map_view.hpp:    BOOST_BIMAP_MAP_VIEW_BASE_FRIEND(vector_map_view,Tag,BimapType)
+bimap/views/vector_set_view.hpp:    BOOST_BIMAP_SET_VIEW_BASE_FRIEND(vector_set_view,CoreIndex)
+circular_buffer/base.hpp:// Friends
+circular_buffer/base.hpp:#if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+circular_buffer/base.hpp:    friend iterator;
+circular_buffer/base.hpp:    friend const_iterator;
+circular_buffer/base.hpp:    template <class Buff, class Traits> friend struct cb_details::iterator;
+concept_archetype.hpp:    friend void dummy_friend(); // just to avoid warnings
+config/compiler/borland.hpp:#     define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/borland.hpp:#  define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/borland.hpp:#  define BOOST_NO_NESTED_FRIENDSHIP
+config/compiler/codegear.hpp:#  define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/codegear.hpp:#  define BOOST_NO_NESTED_FRIENDSHIP     // TC1 gives nested classes access rights as any other member
+config/compiler/digitalmars.hpp:#define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/gcc.hpp:#     define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/hp_acc.hpp:#    define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/metrowerks.hpp:#     define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/vacpp.hpp:#  define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/visualc.hpp:#  define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/compiler/visualc.hpp:#  define BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+config/platform/bsd.hpp://       defines _GLIBCXX_HAVE_SWPRINTF and friends
+container/deque.hpp:      friend class deque<T, Allocator>;
+container/deque.hpp:      friend class deque_base<T, Allocator>;
+container/deque.hpp:      friend const_iterator operator+(difference_type n, const const_iterator& x)
+container/deque.hpp:      friend class deque<T, Allocator>;
+container/deque.hpp:      friend class deque_base<T, Allocator>;
+container/deque.hpp:      friend iterator operator+(difference_type off, const iterator& right)
+container/detail/adaptive_node_pool_impl.hpp:      friend bool operator <(const block_info_t &l, const block_info_t &r)
+container/detail/adaptive_node_pool_impl.hpp:      friend bool operator ==(const block_info_t &l, const block_info_t &r)
+container/detail/adaptive_node_pool_impl.hpp:   friend class block_destroyer;
+container/detail/iterators.hpp:   friend bool operator== (const constant_iterator& i, const constant_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator!= (const constant_iterator& i, const constant_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator< (const constant_iterator& i, const constant_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator> (const constant_iterator& i, const constant_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator<= (const constant_iterator& i, const constant_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator>= (const constant_iterator& i, const constant_iterator& i2)
+container/detail/iterators.hpp:   friend Difference operator- (const constant_iterator& i, const constant_iterator& i2)
+container/detail/iterators.hpp:   friend constant_iterator operator+(Difference off, const constant_iterator& right)
+container/detail/iterators.hpp:   friend bool operator== (const default_construct_iterator& i, const default_construct_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator!= (const default_construct_iterator& i, const default_construct_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator< (const default_construct_iterator& i, const default_construct_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator> (const default_construct_iterator& i, const default_construct_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator<= (const default_construct_iterator& i, const default_construct_iterator& i2)
+container/detail/iterators.hpp:   friend bool operator>= (const default_construct_iterator& i, const default_construct_iterator& i2)
+container/detail/iterators.hpp:   friend Difference operator- (const default_construct_iterator& i, const default_construct_iterator& i2)
+container/detail/iterators.hpp:   friend default_construct_iterator operator+(Difference off, const default_construct_iterator& right)
+container/detail/iterators.hpp:   friend bool operator== (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator!= (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator< (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator> (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator<= (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator>= (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend Difference operator- (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend this_type operator+(Difference off, const this_type& right)
+container/detail/iterators.hpp:   friend bool operator== (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator!= (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator< (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator> (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator<= (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend bool operator>= (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend difference_type operator- (const this_type& i, const this_type& i2)
+container/detail/iterators.hpp:   friend this_type operator+(difference_type off, const this_type& right)
+container/detail/transform_iterator.hpp:   friend bool operator== (const transform_iterator& i, const transform_iterator& i2)
+container/detail/transform_iterator.hpp:   friend bool operator!= (const transform_iterator& i, const transform_iterator& i2)
+container/detail/transform_iterator.hpp:   friend bool operator> (const transform_iterator& i, const transform_iterator& i2)
+container/detail/transform_iterator.hpp:   friend bool operator<= (const transform_iterator& i, const transform_iterator& i2)
+container/detail/transform_iterator.hpp:   friend bool operator>= (const transform_iterator& i, const transform_iterator& i2)
+container/detail/transform_iterator.hpp:   friend typename Iterator::difference_type operator- (const transform_iterator& i, const transform_iterator& i2)
+container/detail/transform_iterator.hpp:   friend transform_iterator operator+(typename Iterator::difference_type off, const transform_iterator& right)
+container/detail/tree.hpp:   friend class RecyclingCloner;
+container/detail/tree.hpp:   friend class RecyclingMoveCloner;
+container/detail/tree.hpp:      friend class rbtree <Key, Value, KeyOfValue, KeyCompare, A>;
+container/detail/tree.hpp:      friend class rbtree <Key, Value, KeyOfValue, KeyCompare, A>;
+container/detail/tree.hpp:   friend class insert_equal_end_hint_functor;
+container/detail/tree.hpp:   friend class push_back_functor;
+container/flat_map.hpp:// Forward declarations of operators == and <, needed for friend declarations.
+container/flat_map.hpp:   friend bool operator== (const flat_map<K1, T1, C1, A1>&,
+container/flat_map.hpp:   friend bool operator< (const flat_map<K1, T1, C1, A1>&,
+container/flat_map.hpp:// Forward declaration of operators < and ==, needed for friend declaration.
+container/flat_map.hpp:   friend bool operator== (const flat_multimap<K1, T1, C1, A1>& x,
+container/flat_map.hpp:   friend bool operator< (const flat_multimap<K1, T1, C1, A1>& x,
+container/flat_set.hpp:// Forward declarations of operators < and ==, needed for friend declaration.
+container/flat_set.hpp:   friend bool operator== (const flat_set<K1,C1,A1>&, const flat_set<K1,C1,A1>&);
+container/flat_set.hpp:   friend bool operator< (const flat_set<K1,C1,A1>&, const flat_set<K1,C1,A1>&);
+container/flat_set.hpp:// Forward declaration of operators < and ==, needed for friend declaration.
+container/flat_set.hpp:   friend bool operator== (const flat_multiset<K1,C1,A1>&,
+container/flat_set.hpp:   friend bool operator< (const flat_multiset<K1,C1,A1>&,
+container/list.hpp:   friend bool operator== (const list_const_iterator& l, const list_const_iterator& r)
+container/list.hpp:   friend bool operator!= (const list_const_iterator& l, const list_const_iterator& r)
+container/list.hpp:   friend class insertion_functor;
+container/map.hpp:// Forward declarations of operators == and <, needed for friend declarations.
+container/map.hpp:   friend bool operator== (const map<K1, T1, C1, A1>&,
+container/map.hpp:   friend bool operator< (const map<K1, T1, C1, A1>&,
+container/map.hpp:// Forward declaration of operators < and ==, needed for friend declaration.
+container/map.hpp:   friend bool operator== (const multimap<K1, T1, C1, A1>& x,
+container/map.hpp:   friend bool operator< (const multimap<K1, T1, C1, A1>& x,
+container/set.hpp:// Forward declarations of operators < and ==, needed for friend declaration.
+container/set.hpp:   friend bool operator== (const set<K1,C1,A1>&, const set<K1,C1,A1>&);
+container/set.hpp:   friend bool operator< (const set<K1,C1,A1>&, const set<K1,C1,A1>&);
+container/set.hpp:// Forward declaration of operators < and ==, needed for friend declaration.
+container/set.hpp:   friend bool operator== (const multiset<K1,C1,A1>&,
+container/set.hpp:   friend bool operator< (const multiset<K1,C1,A1>&,
+container/slist.hpp:   friend bool operator== (const slist_const_iterator& l, const slist_const_iterator& r)
+container/slist.hpp:   friend bool operator!= (const slist_const_iterator& l, const slist_const_iterator& r)
+container/slist.hpp:   friend class insertion_functor;
+container/stable_vector.hpp:      rebind_pointer<T>::type                   friend_iterator_pointer;
+container/stable_vector.hpp:   friend class iterator<T, const T, friend_iterator_pointer>;
+container/stable_vector.hpp:   iterator(const iterator<T, T&, friend_iterator_pointer>& x)
+container/stable_vector.hpp:   friend iterator operator+(const iterator &left, difference_type off)
+container/stable_vector.hpp:   friend iterator operator+(difference_type off, const iterator& right)
+container/stable_vector.hpp:   friend iterator operator-(const iterator &left, difference_type off)
+container/stable_vector.hpp:   friend difference_type operator-(const iterator& left, const iterator& right)
+container/stable_vector.hpp:   friend bool operator==   (const iterator& l, const iterator& r)
+container/stable_vector.hpp:   friend bool operator!=   (const iterator& l, const iterator& r)
+container/stable_vector.hpp:   friend bool operator<    (const iterator& l, const iterator& r)
+container/stable_vector.hpp:   friend bool operator<=   (const iterator& l, const iterator& r)
+container/stable_vector.hpp:   friend bool operator>    (const iterator& l, const iterator& r)
+container/stable_vector.hpp:   friend bool operator>=   (const iterator& l, const iterator& r)
+container/stable_vector.hpp:   friend class stable_vector_detail::clear_on_destroy<stable_vector>;
+container/stable_vector.hpp:   friend class insert_rollback;
+container/stable_vector.hpp:   friend class push_back_rollback;
+container/vector.hpp:   friend vector_const_iterator operator+(difference_type off, const vector_const_iterator& right)
+container/vector.hpp:   friend vector_iterator operator+(difference_type off, const vector_iterator& right)
+coroutine/coroutine.hpp:    friend struct detail::coroutine_get;
+coroutine/coroutine.hpp:    friend struct detail::coroutine_op;
+coroutine/coroutine.hpp:    friend class detail::coroutine_object;
+coroutine/coroutine.hpp:    friend struct detail::coroutine_get;
+coroutine/coroutine.hpp:    friend struct detail::coroutine_op;
+coroutine/coroutine.hpp:    friend class detail::coroutine_object;
+coroutine/detail/coroutine_base.hpp:    friend class coroutine_base_resume;
+coroutine/detail/coroutine_base.hpp:    friend class coroutine_object;
+coroutine/detail/coroutine_base.hpp:    friend inline void intrusive_ptr_add_ref( coroutine_base * p) BOOST_NOEXCEPT
+coroutine/detail/coroutine_base.hpp:    friend inline void intrusive_ptr_release( coroutine_base * p) BOOST_NOEXCEPT
+coroutine/detail/coroutine_base_resume.hpp:    friend struct coroutine_get;
+coroutine/detail/coroutine_base_resume.hpp:    friend struct coroutine_get;
+coroutine/detail/coroutine_base_resume.hpp:    friend struct coroutine_get; \
+date_time/date_duration_types.hpp:      friend date_type operator+(const date_type& d, const months_type& m)
+date_time/date_duration_types.hpp:      friend date_type operator+=(date_type& d, const months_type& m)
+date_time/date_duration_types.hpp:      friend date_type operator-(const date_type& d, const months_type& m)
+date_time/date_duration_types.hpp:      friend date_type operator-=(date_type& d, const months_type& m)
+date_time/date_duration_types.hpp:      friend date_type operator+(const date_type& d, const years_type& y)
+date_time/date_duration_types.hpp:      friend date_type operator+=(date_type& d, const years_type& y)
+date_time/date_duration_types.hpp:      friend date_type operator-(const date_type& d, const years_type& y)
+date_time/date_duration_types.hpp:      friend date_type operator-=(date_type& d, const years_type& y)
+date_time/gregorian/greg_duration.hpp:    friend date_duration operator- (date_duration rhs, date_duration const& lhs)
+date_time/gregorian/greg_duration.hpp:    friend date_duration operator+ (date_duration rhs, date_duration const& lhs)
+date_time/gregorian/greg_duration.hpp:    friend date_duration operator/ (date_duration rhs, int lhs)
+date_time/posix_time/posix_time_config.hpp:    friend class date_time::time_duration<time_duration, time_res_traits>;
+detail/scoped_enum_emulation.hpp:        friend bool operator ==(self_type lhs, self_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)==enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator ==(self_type lhs, enum_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)==rhs; } \
+detail/scoped_enum_emulation.hpp:        friend bool operator ==(enum_type lhs, self_type rhs) BOOST_NOEXCEPT { return lhs==enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator !=(self_type lhs, self_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)!=enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator !=(self_type lhs, enum_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)!=rhs; } \
+detail/scoped_enum_emulation.hpp:        friend bool operator !=(enum_type lhs, self_type rhs) BOOST_NOEXCEPT { return lhs!=enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator <(self_type lhs, self_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)<enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator <(self_type lhs, enum_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)<rhs; } \
+detail/scoped_enum_emulation.hpp:        friend bool operator <(enum_type lhs, self_type rhs) BOOST_NOEXCEPT { return lhs<enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator <=(self_type lhs, self_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)<=enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator <=(self_type lhs, enum_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)<=rhs; } \
+detail/scoped_enum_emulation.hpp:        friend bool operator <=(enum_type lhs, self_type rhs) BOOST_NOEXCEPT { return lhs<=enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator >(self_type lhs, self_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)>enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator >(self_type lhs, enum_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)>rhs; } \
+detail/scoped_enum_emulation.hpp:        friend bool operator >(enum_type lhs, self_type rhs) BOOST_NOEXCEPT { return lhs>enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator >=(self_type lhs, self_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)>=enum_type(rhs.v_); } \
+detail/scoped_enum_emulation.hpp:        friend bool operator >=(self_type lhs, enum_type rhs) BOOST_NOEXCEPT { return enum_type(lhs.v_)>=rhs; } \
+detail/scoped_enum_emulation.hpp:        friend bool operator >=(enum_type lhs, self_type rhs) BOOST_NOEXCEPT { return lhs>=enum_type(rhs.v_); } \
+dynamic_bitset/config.hpp:                             || (defined BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+dynamic_bitset/config.hpp:#define BOOST_DYNAMIC_BITSET_DONT_USE_FRIENDS
+dynamic_bitset/config.hpp:// if we can't use friends then we simply expose private members
+dynamic_bitset/config.hpp:#if defined(BOOST_DYNAMIC_BITSET_DONT_USE_FRIENDS)
+dynamic_bitset/dynamic_bitset.hpp:        friend class dynamic_bitset<Block, Allocator>;
+dynamic_bitset/dynamic_bitset.hpp:#if !defined BOOST_DYNAMIC_BITSET_DONT_USE_FRIENDS
+dynamic_bitset/dynamic_bitset.hpp:    friend bool operator==(const dynamic_bitset<B, A>& a,
+dynamic_bitset/dynamic_bitset.hpp:    friend bool operator<(const dynamic_bitset<B, A>& a,
+dynamic_bitset/dynamic_bitset.hpp:    friend void to_block_range(const dynamic_bitset<B, A>& b,
+dynamic_bitset/dynamic_bitset.hpp:    friend void from_block_range(BlockIterator first, BlockIterator last,
+dynamic_bitset/dynamic_bitset.hpp:    friend std::basic_istream<CharT, Traits>& operator>>(std::basic_istream<CharT, Traits>& is,
+dynamic_bitset/dynamic_bitset.hpp:    friend void to_string_helper(const dynamic_bitset<B, A> & b, stringT & s, bool dump_all);
+dynamic_bitset/dynamic_bitset.hpp:    friend class bit_appender;
+exception/detail/exception_ptr.hpp:        friend void rethrow_exception( exception_ptr const & );
+exception/detail/type_info.hpp:            friend
+exception/exception.hpp:        friend E const & exception_detail::set_info( E const &, throw_function const & );
+exception/exception.hpp:        friend E const & exception_detail::set_info( E const &, throw_file const & );
+exception/exception.hpp:        friend E const & exception_detail::set_info( E const &, throw_line const & );
+exception/exception.hpp:        friend E const & exception_detail::set_info( E const &, error_info<Tag,T> const & );
+exception/exception.hpp:        friend char const * exception_detail::get_diagnostic_information( exception const &, char const * );
+exception/exception.hpp:        friend struct exception_detail::get_info;
+exception/exception.hpp:        friend struct exception_detail::get_info<throw_function>;
+exception/exception.hpp:        friend struct exception_detail::get_info<throw_file>;
+exception/exception.hpp:        friend struct exception_detail::get_info<throw_line>;
+exception/exception.hpp:        friend void exception_detail::copy_boost_exception( exception *, exception const * );
+exception/info.hpp:            friend class boost::exception;
+filesystem/operations.hpp:    friend struct detail::dir_itr_imp;
+filesystem/operations.hpp:    friend BOOST_FILESYSTEM_DECL void detail::directory_iterator_construct(directory_iterator& it,
+filesystem/operations.hpp:    friend BOOST_FILESYSTEM_DECL void detail::directory_iterator_increment(directory_iterator& it,
+filesystem/operations.hpp:    friend class boost::iterator_core_access;
+filesystem/operations.hpp:    friend class boost::iterator_core_access;
+filesystem/path.hpp:    friend class iterator;
+filesystem/path.hpp:    friend bool operator<(const path& lhs, const path& rhs);
+filesystem/path.hpp:    friend class boost::iterator_core_access;
+filesystem/path.hpp:    friend class boost::filesystem::path;
+filesystem/path.hpp:    friend void m_path_iterator_increment(path::iterator & it);
+filesystem/path.hpp:    friend void m_path_iterator_decrement(path::iterator & it);
+flyweight/detail/recursive_lw_mutex.hpp:  friend struct scoped_lock;
+flyweight/flyweight.hpp:  friend bool operator==(const flyweight& x,const flyweight& y)
+flyweight/key_value.hpp:    friend struct optimized_key_value;
+flyweight/key_value.hpp:    friend struct regular_key_value;
+flyweight/refcounted.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+flyweight/refcounted.hpp:  template<typename,typename> friend class refcounted_handle;
+flyweight/refcounted.hpp:  friend void swap(refcounted_handle& x, refcounted_handle& y)
+format/format_class.hpp:#if !defined( BOOST_NO_MEMBER_TEMPLATE_FRIENDS )  \
+format/format_class.hpp:        // use friend templates and private members only if supported
+format/format_class.hpp:        friend std::basic_ostream<Ch2, Tr2> & 
+format/format_class.hpp:        friend std::ostream & 
+format/format_class.hpp:        friend basic_format<Ch2, Tr2, Alloc2>&  
+format/format_class.hpp:        template<class Ch2, class Tr2, class Alloc2, class T>  friend   
+format/format_class.hpp:        template<class Ch2, class Tr2, class Alloc2, class T>  friend
+format/format_class.hpp:        template<class Ch2, class Tr2, class Alloc2, class T> friend
+fusion/container/vector/detail/preprocessed/vvector10.hpp:        friend struct vector;
+fusion/container/vector/detail/preprocessed/vvector20.hpp:        friend struct vector;
+fusion/container/vector/detail/preprocessed/vvector30.hpp:        friend struct vector;
+fusion/container/vector/detail/preprocessed/vvector40.hpp:        friend struct vector;
+fusion/container/vector/detail/preprocessed/vvector50.hpp:        friend struct vector;
+fusion/container/vector/vector.hpp:        friend struct vector;
+fusion/functional/adapter/unfused_typed.hpp:        friend struct detail::unfused_typed_impl;
+geometry/algorithms/detail/overlay/segment_identifier.hpp:    friend std::ostream& operator<<(std::ostream &os, segment_identifier const& seg_id)
+geometry/algorithms/detail/overlay/visit_info.hpp:    friend std::ostream& operator<<(std::ostream &os, visit_info const& v)
+geometry/algorithms/detail/overlay/visit_info.hpp:    friend std::ostream& operator<<(std::ostream &os, visit_info const& v)
+geometry/algorithms/detail/ring_identifier.hpp:    friend std::ostream& operator<<(std::ostream &os, ring_identifier const& ring_id)
+geometry/geometries/adapted/boost_polygon/hole_iterator.hpp:    friend class boost::iterator_core_access;
+geometry/io/dsv/write.hpp:    inline friend std::basic_ostream<Char, Traits>& operator<<(
+geometry/io/wkt/write.hpp:    inline friend std::basic_ostream<Char, Traits>& operator<<(
+geometry/iterators/closing_iterator.hpp:    friend class boost::iterator_core_access;
+geometry/iterators/ever_circling_iterator.hpp:    friend class boost::iterator_core_access;
+geometry/iterators/ever_circling_iterator.hpp:    friend class boost::iterator_core_access;
+geometry/multi/strategies/cartesian/centroid_average.hpp:        friend class average;
+geometry/strategies/agnostic/hull_graham_andrew.hpp:        friend class graham_andrew;
+geometry/strategies/agnostic/point_in_poly_oriented_winding.hpp:        friend class oriented_winding;
+geometry/strategies/agnostic/point_in_poly_winding.hpp:        friend class winding;
+geometry/strategies/cartesian/area_surveyor.hpp:        friend class surveyor;
+geometry/strategies/cartesian/centroid_bashein_detmer.hpp:        friend class bashein_detmer;
+geometry/strategies/cartesian/point_in_poly_crossings_multiply.hpp:        friend class crossings_multiply;
+geometry/strategies/cartesian/point_in_poly_franklin.hpp:            friend class franklin;
+geometry/views/detail/points_view.hpp:        friend class boost::iterator_core_access;
+gil/bit_aligned_pixel_iterator.hpp:    template <typename Ref> friend struct bit_aligned_pixel_iterator;
+gil/bit_aligned_pixel_iterator.hpp:    friend class boost::iterator_core_access;
+gil/bit_aligned_pixel_reference.hpp:    template <int RS, bool M> friend class bit_range;
+gil/bit_aligned_pixel_reference.hpp:    template <typename B, typename C, typename L, bool M> friend struct bit_aligned_pixel_reference;
+gil/channel.hpp:    friend class packed_channel_reference<BitField,FirstBit,NumBits,true>;
+gil/channel.hpp:    friend class packed_channel_reference<BitField,FirstBit,NumBits,false>;
+gil/channel.hpp:    friend class packed_dynamic_channel_reference<BitField,NumBits,true>;
+gil/channel.hpp:    friend class packed_dynamic_channel_reference<BitField,NumBits,false>;
+gil/extension/dynamic_image/variant.hpp:    template <typename TS> friend bool operator==(const variant<TS>& x, const variant<TS>& y);
+gil/extension/dynamic_image/variant.hpp:    template <typename TS> friend bool operator!=(const variant<TS>& x, const variant<TS>& y);
+gil/extension/dynamic_image/variant.hpp:    template <typename Cs> friend void swap(variant<Cs>& x, variant<Cs>& y);
+gil/extension/dynamic_image/variant.hpp:    template <typename Types2, typename UnaryOp> friend typename UnaryOp::result_type apply_operation(variant<Types2>& var, UnaryOp op);
+gil/extension/dynamic_image/variant.hpp:    template <typename Types2, typename UnaryOp> friend typename UnaryOp::result_type apply_operation(const variant<Types2>& var, UnaryOp op);
+gil/extension/dynamic_image/variant.hpp:    template <typename Types1, typename Types2, typename BinaryOp> friend typename BinaryOp::result_type apply_operation(const variant<Types1>& arg1, const variant<Types2>& arg2, BinaryOp op);
+gil/image_view.hpp:    template <typename L2> friend void swap(image_view<L2>& x, image_view<L2>& y);
+gil/image_view.hpp:    template <typename L2> friend class image_view;
+gil/iterator_from_2d.hpp:    template <typename Loc> friend class iterator_from_2d;
+gil/iterator_from_2d.hpp:    friend class boost::iterator_core_access;
+gil/locator.hpp:    template <typename X> friend class pixel_2d_locator;
+gil/locator.hpp:    template <typename X> friend class memory_based_2d_locator;
+gil/pixel_iterator_adaptor.hpp:    friend class dereference_iterator_adaptor;
+gil/pixel_iterator_adaptor.hpp:    friend class boost::iterator_core_access;
+gil/planar_pixel_iterator.hpp:    friend class boost::iterator_core_access;
+gil/position_iterator.hpp:    template <typename DE, int DI> friend struct position_iterator;
+gil/position_iterator.hpp:    friend class boost::iterator_core_access;
+gil/step_iterator.hpp:    friend class boost::iterator_core_access;
+gil/virtual_locator.hpp:    template <typename D, bool TR> friend class virtual_2d_locator;
+graph/adjacency_list.hpp:    //  protected:  (would be protected if friends were more portable)
+graph/adjacency_matrix.hpp:    //private: if friends worked, these would be private
+graph/adjacency_matrix.hpp:    //private: if friends worked, these would be private
+graph/compressed_sparse_row_graph.hpp:  // private: non-portable, requires friend templates
+graph/compressed_sparse_row_graph.hpp:  // private: non-portable, requires friend templates
+graph/detail/adjacency_list.hpp:      //protected: need to add hash<> as a friend
+graph/detail/adjacency_list.hpp:  more conveniently implemented as inline friend functions.
+graph/detail/adjacency_list.hpp:  1. g++ inline friend in namespace bug
+graph/detail/adjacency_list.hpp:  2. g++ using clause doesn't work with inline friends
+graph/detail/compressed_sparse_row_struct.hpp:   public: // GCC 4.2.1 doesn't like the private-and-friend thing
+graph/detail/compressed_sparse_row_struct.hpp:    friend class iterator_core_access;
+graph/detail/compressed_sparse_row_struct.hpp:    friend class boost::iterator_core_access;
+graph/detail/compressed_sparse_row_struct.hpp:    friend class iterator_core_access;
+graph/detail/indexed_properties.hpp:public: // should be private, but friend templates not portable
+graph/detail/indexed_properties.hpp:public: // should be private, but friend templates not portable
+graph/detail/read_graphviz_new.hpp:    friend inline bool operator==(const node_and_port& a, const node_and_port& b) {
+graph/detail/read_graphviz_new.hpp:    friend inline bool operator<(const node_and_port& a, const node_and_port& b) {
+graph/detail/shadow_iterator.hpp:      inline friend D operator-(const self& x, const self& y) {
+graph/distributed/adjacency_list.hpp:      friend class boost::serialization::access;
+graph/distributed/adjacency_list.hpp:    friend struct lazy_add_vertex_with_property;
+graph/distributed/adjacency_list.hpp:    friend struct lazy_add_edge;
+graph/distributed/adjacency_list.hpp:    friend struct lazy_add_edge_with_property;
+graph/distributed/adjlist/redistribute.hpp:  friend class boost::serialization::access;
+graph/distributed/compressed_sparse_row_graph.hpp:  friend class iterator_core_access;
+graph/distributed/dehne_gotz_min_spanning_tree.hpp:    friend inline bool operator==(const self_type& x, const self_type& y)
+graph/distributed/dehne_gotz_min_spanning_tree.hpp:    friend inline bool operator!=(const self_type& x, const self_type& y)
+graph/distributed/detail/remote_update_set.hpp:  friend struct handle_messages;
+graph/distributed/detail/remote_update_set.hpp:  friend struct handle_messages;
+graph/distributed/detail/tag_allocator.hpp:  friend class token;
+graph/distributed/detail/tag_allocator.hpp:  friend class tag_allocator;
+graph/distributed/hohberg_biconnected_components.hpp:  friend class boost::serialization::access;
+graph/distributed/mpi_process_group.hpp:  // @todo Actually write up the friend declarations so these could be
+graph/distributed/named_graph.hpp:  friend struct lazy_add_vertex;
+graph/distributed/named_graph.hpp:  friend struct lazy_add_edge;
+graph/distributed/named_graph.hpp:  friend struct lazy_add_edge_with_property;
+graph/graph_as_tree.hpp:    friend Node root(const Tree& t) { return t._root; }
+graph/graph_as_tree.hpp:    friend std::pair<ChIt,ChIt>
+graph/graph_as_tree.hpp:    friend Node parent(N n, const Tree& t) { 
+graph/grid_graph.hpp:    friend inline Index
+graph/grid_graph.hpp:    friend inline Descriptor
+graph/grid_graph.hpp:    friend inline std::pair<typename type::vertex_iterator,
+graph/grid_graph.hpp:    friend inline typename type::vertices_size_type
+graph/grid_graph.hpp:    friend inline typename type::vertex_descriptor
+graph/grid_graph.hpp:    friend inline std::pair<typename type::out_edge_iterator,
+graph/grid_graph.hpp:    friend inline typename type::degree_size_type
+graph/grid_graph.hpp:    friend inline typename type::edge_descriptor
+graph/grid_graph.hpp:    friend typename std::pair<typename type::adjacency_iterator,
+graph/grid_graph.hpp:    friend inline typename type::edges_size_type
+graph/grid_graph.hpp:    friend inline typename type::edge_descriptor
+graph/grid_graph.hpp:    friend inline std::pair<typename type::edge_iterator,
+graph/grid_graph.hpp:    friend inline std::pair<typename type::in_edge_iterator,
+graph/grid_graph.hpp:    friend inline typename type::degree_size_type
+graph/grid_graph.hpp:    friend inline typename type::degree_size_type
+graph/grid_graph.hpp:    friend inline typename type::edge_descriptor
+graph/grid_graph.hpp:    friend std::pair<typename type::edge_descriptor, bool>
+graph/grid_graph.hpp:    friend inline typename type::vertices_size_type
+graph/grid_graph.hpp:    friend inline typename type::edges_size_type
+graph/grid_graph.hpp:    friend inline grid_graph_index_map<
+graph/grid_graph.hpp:    friend inline grid_graph_index_map<
+graph/grid_graph.hpp:    friend inline grid_graph_reverse_edge_map<
+graph/grid_graph.hpp:    friend struct grid_graph_index_map;
+graph/grid_graph.hpp:    friend struct grid_graph_reverse_edge_map;
+graph/isomorphism.hpp:      friend struct compare_multiplicity;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/leda_graph.hpp:      friend class iterator_core_access;
+graph/matrix_as_graph.hpp:    friend std::pair<vertex_iterator, vertex_iterator> \
+graph/matrix_as_graph.hpp:    friend std::pair<out_edge_iterator, out_edge_iterator> \
+graph/matrix_as_graph.hpp:    friend std::pair<adjacency_iterator, adjacency_iterator> \
+graph/matrix_as_graph.hpp:    friend vertex_descriptor \
+graph/matrix_as_graph.hpp:    friend vertex_descriptor \
+graph/matrix_as_graph.hpp:    friend size_type \
+graph/matrix_as_graph.hpp:    friend size_type \
+graph/matrix_as_graph.hpp:    friend size_type \
+graph/metis.hpp:      friend class edge_iterator;
+graph/metis.hpp:    friend class metis_reader;
+graph/metis.hpp:    friend bool operator==(edge_iterator, edge_iterator);
+graph/metis.hpp:    friend bool operator!=(edge_iterator, edge_iterator);
+graph/metis.hpp:  friend class edge_iterator;
+graph/metis.hpp:    friend class metis_reader;
+graph/metis.hpp:  friend bool operator==(edge_iterator, edge_iterator);
+graph/metis.hpp:  friend bool operator!=(edge_iterator, edge_iterator);
+graph/parallel/detail/property_holders.hpp:  friend class boost::serialization::access;
+graph/parallel/detail/property_holders.hpp:  friend class boost::serialization::access;
+graph/parallel/detail/property_holders.hpp:  friend class boost::serialization::access;
+graph/planar_detail/face_iterators.hpp:    friend class boost::iterator_core_access;
+graph/planar_detail/face_iterators.hpp:    friend class boost::iterator_core_access;
+graph/property_maps/constant_property_map.hpp:    friend Value get(const constant_writable_property_map& me, Key) {return me.m_value;}
+graph/property_maps/constant_property_map.hpp:    friend void put(const constant_writable_property_map&, Key, Value) {}
+graph/r_c_shortest_paths.hpp:  friend bool operator==( const ks_smart_pointer& t, 
+graph/r_c_shortest_paths.hpp:  friend bool operator!=( const ks_smart_pointer& t, 
+graph/r_c_shortest_paths.hpp:  friend bool operator<( const ks_smart_pointer& t, 
+graph/r_c_shortest_paths.hpp:  friend bool operator>( const ks_smart_pointer& t, 
+graph/r_c_shortest_paths.hpp:  friend bool operator<=( const ks_smart_pointer& t, 
+graph/r_c_shortest_paths.hpp:  friend bool operator>=( const ks_smart_pointer& t, 
+graph/reverse_graph.hpp:      friend bool operator==(const reverse_graph_edge_descriptor& a, const reverse_graph_edge_descriptor& b) {
+graph/reverse_graph.hpp:      friend bool operator!=(const reverse_graph_edge_descriptor& a, const reverse_graph_edge_descriptor& b) {
+graph/reverse_graph.hpp:      friend bool operator<(const reverse_graph_edge_descriptor& a, const reverse_graph_edge_descriptor& b) {
+graph/reverse_graph.hpp:      friend bool operator>(const reverse_graph_edge_descriptor& a, const reverse_graph_edge_descriptor& b) {
+graph/reverse_graph.hpp:      friend bool operator<=(const reverse_graph_edge_descriptor& a, const reverse_graph_edge_descriptor& b) {
+graph/reverse_graph.hpp:      friend bool operator>=(const reverse_graph_edge_descriptor& a, const reverse_graph_edge_descriptor& b) {
+graph/reverse_graph.hpp:    // would be private, but template friends aren't portable enough.
+graph/reverse_graph.hpp:    friend reference
+graph/reverse_graph.hpp:    friend void
+graph/stanford_graph.hpp:    friend Vertex* source(self e, sgb_const_graph_ptr) { return e._src; }
+graph/stanford_graph.hpp:    friend Vertex* target(self e, sgb_const_graph_ptr) { return e._arc->tip; }
+graph/stanford_graph.hpp:    friend bool operator==(const self& a, const self& b) {
+graph/stanford_graph.hpp:    friend bool operator!=(const self& a, const self& b) {
+graph/stanford_graph.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+graph/stanford_graph.hpp:    template <class Ref> friend class sgb_edge_length_map;
+graph/stanford_graph.hpp:    template <class Tag, class Ref> friend class sgb_edge_util_map;
+graph/stanford_graph.hpp:    friend long get(edge_length_t, const sgb_graph_ptr&, const sgb_edge& key);
+graph/stanford_graph.hpp:    friend long get(edge_length_t, const sgb_const_graph_ptr&, const sgb_edge& key);
+graph/stanford_graph.hpp:    friend void put(edge_length_t, sgb_graph_ptr&, const sgb_edge& key, long value);
+graph/stanford_graph.hpp:    friend bool operator==(const self& x, const self& y) {
+graph/stanford_graph.hpp:    friend bool operator==(const self& x, const self& y) {
+graph/stanford_graph.hpp:    friend bool operator==(const self& x, const self& y) {
+graph/topology.hpp:    friend point_difference operator+(const point_difference& a, const point_difference& b) {
+graph/topology.hpp:    friend point_difference& operator+=(point_difference& a, const point_difference& b) {
+graph/topology.hpp:    friend point_difference operator-(const point_difference& a) {
+graph/topology.hpp:    friend point_difference operator-(const point_difference& a, const point_difference& b) {
+graph/topology.hpp:    friend point_difference& operator-=(point_difference& a, const point_difference& b) {
+graph/topology.hpp:    friend point_difference operator*(const point_difference& a, const point_difference& b) {
+graph/topology.hpp:    friend point_difference operator*(const point_difference& a, double b) {
+graph/topology.hpp:    friend point_difference operator*(double a, const point_difference& b) {
+graph/topology.hpp:    friend point_difference operator/(const point_difference& a, const point_difference& b) {
+graph/topology.hpp:    friend double dot(const point_difference& a, const point_difference& b) {
+heap/binomial_heap.hpp:    friend struct heap_merge_emulate;
+heap/d_ary_heap.hpp:    friend struct heap_merge_emulate;
+heap/d_ary_heap.hpp:    template <class U> friend class priority_queue_mutable_wrapper;
+heap/d_ary_heap.hpp:    friend struct heap_merge_emulate;
+heap/detail/mutable_heap.hpp:    friend struct heap_merge_emulate;
+heap/detail/mutable_heap.hpp:        friend class priority_queue_mutable_wrapper;
+heap/detail/mutable_heap.hpp:        friend class boost::iterator_core_access;
+heap/detail/mutable_heap.hpp:        friend class priority_queue_mutable_wrapper;
+heap/detail/mutable_heap.hpp:        friend class boost::iterator_core_access;
+heap/detail/ordered_adaptor_iterator.hpp:    friend class boost::iterator_core_access;
+heap/detail/stable_heap.hpp:    friend struct heap_merge_emulate;
+heap/detail/stable_heap.hpp:    friend struct heap_merge_emulate;
+heap/detail/stable_heap.hpp:    friend class boost::iterator_core_access;
+heap/detail/tree_iterator.hpp:    friend class boost::iterator_core_access;
+heap/detail/tree_iterator.hpp:    friend class boost::iterator_core_access;
+heap/fibonacci_heap.hpp:    friend struct heap_merge_emulate;
+heap/pairing_heap.hpp:    friend struct heap_merge_emulate;
+heap/priority_queue.hpp:    friend struct detail::heap_merge_emulate;
+heap/skew_heap.hpp:    friend struct heap_merge_emulate;
+icl/detail/element_iterator.hpp:    friend class boost::iterator_core_access;
+icl/detail/element_iterator.hpp:    template <class> friend class element_iterator;
+icl/interval_base_map.hpp:    friend struct on_invertible<type, true>;
+icl/interval_base_map.hpp:    friend struct on_invertible<type, false>;
+icl/interval_base_map.hpp:    friend struct on_definedness<type, true>;
+icl/interval_base_map.hpp:    friend struct on_definedness<type, false>;
+icl/interval_base_map.hpp:    friend struct on_codomain_model<type, true>;
+icl/interval_base_map.hpp:    friend struct on_codomain_model<type, false>;
+icl/interval_map.hpp:    friend class
+icl/interval_set.hpp:    friend class
+icl/map.hpp:    friend struct on_invertible<type, true>;
+icl/map.hpp:    friend struct on_invertible<type, false>;
+icl/map.hpp:    friend struct on_definedness<type, true>;
+icl/map.hpp:    friend struct on_definedness<type, false>;
+icl/map.hpp:    friend struct on_total_absorbable<type, true,  true >;
+icl/map.hpp:    friend struct on_total_absorbable<type, false, true >;
+icl/map.hpp:    friend struct on_total_absorbable<type, true,  false>;
+icl/map.hpp:    friend struct on_total_absorbable<type, false, false>;
+icl/separate_interval_set.hpp:    friend class
+icl/split_interval_map.hpp:    friend class
+icl/split_interval_set.hpp:    friend class
+interprocess/allocators/adaptive_pool.hpp:   friend void swap(self_t &alloc1, self_t &alloc2)
+interprocess/allocators/adaptive_pool.hpp:   friend void swap(self_t &alloc1, self_t &alloc2);
+interprocess/allocators/allocator.hpp:   friend void swap(self_t &alloc1, self_t &alloc2)
+interprocess/allocators/cached_adaptive_pool.hpp:   friend void swap(self_t &alloc1, self_t &alloc2);
+interprocess/allocators/cached_node_allocator.hpp:   friend void swap(self_t &alloc1, self_t &alloc2);
+interprocess/allocators/detail/allocator_common.hpp:   friend void swap(cached_allocator_impl &alloc1, cached_allocator_impl &alloc2)
+interprocess/allocators/node_allocator.hpp:   friend void swap(self_t &alloc1, self_t &alloc2)
+interprocess/allocators/node_allocator.hpp:   friend void swap(self_t &alloc1, self_t &alloc2);
+interprocess/allocators/private_adaptive_pool.hpp:   friend void swap(self_t &alloc1,self_t &alloc2)
+interprocess/allocators/private_adaptive_pool.hpp:   friend void swap(self_t &alloc1, self_t &alloc2);
+interprocess/allocators/private_node_allocator.hpp:   friend void swap(self_t &alloc1,self_t &alloc2)
+interprocess/allocators/private_node_allocator.hpp:   friend void swap(self_t &alloc1, self_t &alloc2);
+interprocess/detail/intersegment_ptr.hpp:      friend bool operator< (const segment_group_t&l, const segment_group_t &r)
+interprocess/detail/managed_memory_impl.hpp:   friend class create_open_func;
+interprocess/detail/managed_multi_shared_memory.hpp:   //Friend declarations
+interprocess/detail/managed_multi_shared_memory.hpp:   friend struct basic_managed_multi_shared_memory::create_open_func;
+interprocess/detail/managed_multi_shared_memory.hpp:   friend struct basic_managed_multi_shared_memory::close_func;
+interprocess/detail/managed_multi_shared_memory.hpp:   friend class basic_managed_multi_shared_memory::group_services;
+interprocess/detail/managed_open_or_create_impl.hpp:   friend void swap(managed_open_or_create_impl &left, managed_open_or_create_impl &right)
+interprocess/detail/managed_open_or_create_impl.hpp:   friend class interprocess_tester;
+interprocess/detail/transform_iterator.hpp:   friend bool operator== (const transform_iterator& i, const transform_iterator& i2)
+interprocess/detail/transform_iterator.hpp:   friend bool operator!= (const transform_iterator& i, const transform_iterator& i2)
+interprocess/detail/transform_iterator.hpp:   friend bool operator< (const transform_iterator& i, const transform_iterator& i2)
+interprocess/detail/transform_iterator.hpp:   friend bool operator> (const transform_iterator& i, const transform_iterator& i2)
+interprocess/detail/transform_iterator.hpp:   friend bool operator<= (const transform_iterator& i, const transform_iterator& i2)
+interprocess/detail/transform_iterator.hpp:   friend bool operator>= (const transform_iterator& i, const transform_iterator& i2)
+interprocess/detail/transform_iterator.hpp:   friend typename Iterator::difference_type operator- (const transform_iterator& i, const transform_iterator& i2)
+interprocess/detail/transform_iterator.hpp:   friend transform_iterator operator+(typename Iterator::difference_type off, const transform_iterator& right)
+interprocess/ipc/message_queue.hpp:   friend class ipcdetail::msg_queue_initialization_func_t<VoidPointer>;
+interprocess/mapped_region.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/mapped_region.hpp:   friend class ipcdetail::raw_mapped_region_creator;
+interprocess/mem_algo/detail/simple_seq_fit_impl.hpp:   friend class block_ctrl;
+interprocess/mem_algo/detail/simple_seq_fit_impl.hpp:   friend class ipcdetail::memory_algorithm_common<simple_seq_fit_impl>;
+interprocess/mem_algo/rbtree_best_fit.hpp:      friend bool operator<(const block_ctrl &a, const block_ctrl &b)
+interprocess/mem_algo/rbtree_best_fit.hpp:      friend bool operator==(const block_ctrl &a, const block_ctrl &b)
+interprocess/mem_algo/rbtree_best_fit.hpp:   friend class ipcdetail::memory_algorithm_common<rbtree_best_fit>;
+interprocess/offset_ptr.hpp:   friend offset_ptr operator+(difference_type diff, offset_ptr right)
+interprocess/offset_ptr.hpp:   friend offset_ptr operator+(offset_ptr left, difference_type diff)
+interprocess/offset_ptr.hpp:   friend offset_ptr operator-(offset_ptr left, difference_type diff)
+interprocess/offset_ptr.hpp:   friend offset_ptr operator-(difference_type diff, offset_ptr right)
+interprocess/offset_ptr.hpp:   friend difference_type operator-(const offset_ptr &pt, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator== (const offset_ptr &pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator!= (const offset_ptr &pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator<(const offset_ptr &pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator<=(const offset_ptr &pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator>(const offset_ptr &pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator>=(const offset_ptr &pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator== (pointer pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator!= (pointer pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator<(pointer pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator<=(pointer pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator>(pointer pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator>=(pointer pt1, const offset_ptr &pt2)
+interprocess/offset_ptr.hpp:   friend bool operator== (const offset_ptr &pt1, pointer pt2)
+interprocess/offset_ptr.hpp:   friend bool operator!= (const offset_ptr &pt1, pointer pt2)
+interprocess/offset_ptr.hpp:   friend bool operator<(const offset_ptr &pt1, pointer pt2)
+interprocess/offset_ptr.hpp:   friend bool operator<=(const offset_ptr &pt1, pointer pt2)
+interprocess/offset_ptr.hpp:   friend bool operator>(const offset_ptr &pt1, pointer pt2)
+interprocess/offset_ptr.hpp:   friend bool operator>=(const offset_ptr &pt1, pointer pt2)
+interprocess/offset_ptr.hpp:   friend void swap(offset_ptr &left, offset_ptr &right)
+interprocess/smart_ptr/detail/shared_count.hpp:   friend class weak_count;
+interprocess/smart_ptr/detail/shared_count.hpp:   friend class shared_count;
+interprocess/smart_ptr/detail/shared_count.hpp:   friend class weak_count;
+interprocess/smart_ptr/detail/shared_count.hpp:   friend class shared_count;
+interprocess/smart_ptr/shared_ptr.hpp:   template<class T2, class A2, class Deleter2> friend class shared_ptr;
+interprocess/smart_ptr/shared_ptr.hpp:   template<class T2, class A2, class Deleter2> friend class weak_ptr;
+interprocess/smart_ptr/weak_ptr.hpp:   template<class T2, class A2, class D2> friend class shared_ptr;
+interprocess/smart_ptr/weak_ptr.hpp:   template<class T2, class A2, class D2> friend class weak_ptr;
+interprocess/sync/interprocess_condition.hpp:   friend class named_condition;
+interprocess/sync/interprocess_mutex.hpp:   friend class interprocess_condition;
+interprocess/sync/interprocess_mutex.hpp:      friend class ipcdetail::robust_emulation_helpers::mutex_traits<interprocess_mutex>;
+interprocess/sync/interprocess_recursive_mutex.hpp:      friend class ipcdetail::robust_emulation_helpers::mutex_traits<interprocess_recursive_mutex>;
+interprocess/sync/interprocess_sharable_mutex.hpp:   friend class interprocess_condition;
+interprocess/sync/interprocess_upgradable_mutex.hpp:   friend class interprocess_condition;
+interprocess/sync/named_condition.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/named_condition_any.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/named_mutex.hpp:   friend class named_condition;
+interprocess/sync/named_mutex.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/named_recursive_mutex.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/named_semaphore.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/named_sharable_mutex.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/named_upgradable_mutex.hpp:   friend class named_condition;
+interprocess/sync/named_upgradable_mutex.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/posix/mutex.hpp:   friend class posix_condition;
+interprocess/sync/posix/named_mutex.hpp:   friend class named_condition;
+interprocess/sync/posix/named_mutex.hpp:   friend class interprocess_tester;
+interprocess/sync/posix/named_semaphore.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/shm/named_condition.hpp:   friend class boost::interprocess::ipcdetail::interprocess_tester;
+interprocess/sync/shm/named_condition.hpp:   template <class T, class Arg> friend class boost::interprocess::ipcdetail::named_creation_functor;
+interprocess/sync/shm/named_condition_any.hpp:   friend class boost::interprocess::ipcdetail::interprocess_tester;
+interprocess/sync/shm/named_condition_any.hpp:   template <class T, class Arg> friend class boost::interprocess::ipcdetail::named_creation_functor;
+interprocess/sync/shm/named_mutex.hpp:   friend class named_condition;
+interprocess/sync/shm/named_mutex.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/shm/named_recursive_mutex.hpp:   friend class interprocess_tester;
+interprocess/sync/shm/named_semaphore.hpp:   friend class interprocess_tester;
+interprocess/sync/shm/named_upgradable_mutex.hpp:   friend class named_condition;
+interprocess/sync/shm/named_upgradable_mutex.hpp:   friend class ipcdetail::interprocess_tester;
+interprocess/sync/windows/named_condition_any.hpp:   friend class interprocess_tester;
+interprocess/sync/windows/named_mutex.hpp:   friend class interprocess_tester;
+interprocess/sync/windows/named_semaphore.hpp:   friend class interprocess_tester;
+interprocess/sync/windows/sync_utils.hpp:   friend std::size_t hash_value(const sync_id &m)
+interprocess/sync/windows/sync_utils.hpp:   friend bool operator==(const sync_id &l, const sync_id &r)
+intrusive/avl_set.hpp:   friend bool operator==(const avl_set_impl &x, const avl_set_impl &y)
+intrusive/avl_set.hpp:   friend bool operator<(const avl_set_impl &x, const avl_set_impl &y)
+intrusive/avl_set.hpp:   friend bool operator==(const avl_multiset_impl &x, const avl_multiset_impl &y)
+intrusive/avl_set.hpp:   friend bool operator<(const avl_multiset_impl &x, const avl_multiset_impl &y)
+intrusive/avltree.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/detail/hashtable_node.hpp:   friend bool operator== (const hashtable_iterator& i, const hashtable_iterator& i2)
+intrusive/detail/hashtable_node.hpp:   friend bool operator!= (const hashtable_iterator& i, const hashtable_iterator& i2)
+intrusive/detail/list_node.hpp:   friend bool operator== (const list_iterator& l, const list_iterator& r)
+intrusive/detail/list_node.hpp:   friend bool operator!= (const list_iterator& l, const list_iterator& r)
+intrusive/detail/slist_node.hpp:   friend bool operator== (const slist_iterator& l, const slist_iterator& r)
+intrusive/detail/slist_node.hpp:   friend bool operator!= (const slist_iterator& l, const slist_iterator& r)
+intrusive/detail/transform_iterator.hpp:   friend bool operator== (const transform_iterator& i, const transform_iterator& i2)
+intrusive/detail/transform_iterator.hpp:   friend bool operator!= (const transform_iterator& i, const transform_iterator& i2)
+intrusive/detail/transform_iterator.hpp:   friend bool operator> (const transform_iterator& i, const transform_iterator& i2)
+intrusive/detail/transform_iterator.hpp:   friend bool operator<= (const transform_iterator& i, const transform_iterator& i2)
+intrusive/detail/transform_iterator.hpp:   friend bool operator>= (const transform_iterator& i, const transform_iterator& i2)
+intrusive/detail/transform_iterator.hpp:   friend typename Iterator::difference_type operator- (const transform_iterator& i, const transform_iterator& i2)
+intrusive/detail/transform_iterator.hpp:   friend transform_iterator operator+(typename Iterator::difference_type off, const transform_iterator& right)
+intrusive/detail/tree_node.hpp:   friend bool operator== (const tree_iterator& l, const tree_iterator& r)
+intrusive/detail/tree_node.hpp:   friend bool operator!= (const tree_iterator& l, const tree_iterator& r)
+intrusive/detail/utilities.hpp:	friend bool operator==(const reverse_iterator& l, const reverse_iterator& r)
+intrusive/detail/utilities.hpp:	friend bool operator!=(const reverse_iterator& l, const reverse_iterator& r)
+intrusive/detail/utilities.hpp:	friend bool operator<(const reverse_iterator& l, const reverse_iterator& r)
+intrusive/detail/utilities.hpp:	friend bool operator<=(const reverse_iterator& l, const reverse_iterator& r)
+intrusive/detail/utilities.hpp:	friend bool operator>(const reverse_iterator& l, const reverse_iterator& r)
+intrusive/detail/utilities.hpp:	friend bool operator>=(const reverse_iterator& l, const reverse_iterator& r)
+intrusive/detail/utilities.hpp:	friend reverse_iterator operator+(const reverse_iterator & l, difference_type off)
+intrusive/detail/utilities.hpp:	friend reverse_iterator operator-(const reverse_iterator & l, difference_type off)
+intrusive/detail/utilities.hpp:	friend difference_type operator-(const reverse_iterator& l, const reverse_iterator& r)
+intrusive/hashtable.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/list.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/rbtree.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/set.hpp:   friend bool operator==(const set_impl &x, const set_impl &y)
+intrusive/set.hpp:   friend bool operator<(const set_impl &x, const set_impl &y)
+intrusive/set.hpp:   friend bool operator==(const multiset_impl &x, const multiset_impl &y)
+intrusive/set.hpp:   friend bool operator<(const multiset_impl &x, const multiset_impl &y)
+intrusive/sg_set.hpp:   friend bool operator==(const sg_set_impl &x, const sg_set_impl &y)
+intrusive/sg_set.hpp:   friend bool operator<(const sg_set_impl &x, const sg_set_impl &y)
+intrusive/sg_set.hpp:   friend bool operator==(const sg_multiset_impl &x, const sg_multiset_impl &y)
+intrusive/sg_set.hpp:   friend bool operator<(const sg_multiset_impl &x, const sg_multiset_impl &y)
+intrusive/sgtree.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/slist.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/splay_set.hpp:   friend bool operator==(const splay_set_impl &x, const splay_set_impl &y)
+intrusive/splay_set.hpp:   friend bool operator<(const splay_set_impl &x, const splay_set_impl &y)
+intrusive/splay_set.hpp:   friend bool operator==(const splay_multiset_impl &x, const splay_multiset_impl &y)
+intrusive/splay_set.hpp:   friend bool operator<(const splay_multiset_impl &x, const splay_multiset_impl &y)
+intrusive/splaytree.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/treap.hpp:   template<class C> friend class detail::clear_on_destructor_base;
+intrusive/treap_set.hpp:   friend bool operator==(const treap_set_impl &x, const treap_set_impl &y)
+intrusive/treap_set.hpp:   friend bool operator<(const treap_set_impl &x, const treap_set_impl &y)
+intrusive/treap_set.hpp:   friend bool operator==(const treap_multiset_impl &x, const treap_multiset_impl &y)
+intrusive/treap_set.hpp:   friend bool operator<(const treap_multiset_impl &x, const treap_multiset_impl &y)
+iostreams/chain.hpp:#include <boost/config.hpp>                     // BOOST_MSVC, template friends,
+iostreams/chain.hpp:    friend class chain_client<Self>;
+iostreams/chain.hpp:    friend struct closer;
+iostreams/chain.hpp:    friend struct chain_impl;
+iostreams/chain.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) && \
+iostreams/chain.hpp:    friend class chain_base;
+iostreams/detail/streambuf/chainbuf.hpp:#include <boost/config.hpp>                    // BOOST_MSVC, template friends.
+iostreams/detail/streambuf/chainbuf.hpp:    friend struct sentry;
+iostreams/detail/streambuf/direct_streambuf.hpp:#include <boost/iostreams/detail/char_traits.hpp>  // member template friends.
+iostreams/detail/streambuf/indirect_streambuf.hpp:#include <boost/config.hpp>                      // Member template friends.
+iostreams/detail/streambuf/linked_streambuf.hpp:#include <boost/config.hpp>                        // member template friends.
+iostreams/detail/streambuf/linked_streambuf.hpp:    //----------grant friendship to chain_base and chainbuf-------------------//
+iostreams/detail/streambuf/linked_streambuf.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+iostreams/detail/streambuf/linked_streambuf.hpp:    friend class chain_base;
+iostreams/detail/streambuf/linked_streambuf.hpp:    friend class chainbuf;
+iostreams/detail/streambuf/linked_streambuf.hpp:    friend class member_close_operation; 
+iostreams/detail/streambuf/linked_streambuf.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+iostreams/device/file_descriptor.hpp:    friend class file_descriptor_source;
+iostreams/device/file_descriptor.hpp:    friend class file_descriptor_sink;
+iostreams/device/mapped_file.hpp:    friend class mapped_file_impl;
+iostreams/device/mapped_file.hpp:    friend class mapped_file;
+iostreams/device/mapped_file.hpp:    friend class detail::mapped_file_impl;
+iostreams/device/mapped_file.hpp:    friend struct boost::iostreams::operations<mapped_file_source>;
+iostreams/device/mapped_file.hpp:    friend struct boost::iostreams::operations<mapped_file >;
+iostreams/device/mapped_file.hpp:    friend class mapped_file_sink;
+iostreams/device/mapped_file.hpp:    friend struct boost::iostreams::operations<mapped_file_sink>;
+iostreams/filter/newline.hpp:    friend class newline_checker;
+iterator/counting_iterator.hpp:    friend class iterator_core_access;
+iterator/filter_iterator.hpp:      friend class iterator_core_access;
+iterator/indirect_iterator.hpp:      friend class iterator_core_access;
+iterator/iterator_adaptor.hpp:      friend class iterator_core_access;
+iterator/iterator_facade.hpp:  // This forward declaration is required for the friend declaration
+iterator/iterator_facade.hpp:  // should be made friend so that iterator_facade can access the core
+iterator/iterator_facade.hpp:# if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)                  
+iterator/iterator_facade.hpp:      // to work in the absence of member template friends.
+iterator/iterator_facade.hpp:      template <class I, class V, class TC, class R, class D> friend class iterator_facade;
+iterator/iterator_facade.hpp:      BOOST_ITERATOR_FACADE_INTEROP_HEAD(friend,op, boost::detail::always_bool2);
+iterator/iterator_facade.hpp:          friend, -, boost::detail::choose_difference_type)
+iterator/iterator_facade.hpp:          friend inline
+iterator/iterator_facade.hpp:          friend inline
+iterator/permutation_iterator.hpp:  friend class iterator_core_access;
+iterator/permutation_iterator.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+iterator/permutation_iterator.hpp:    template <class,class> friend class permutation_iterator;
+iterator/reverse_iterator.hpp:      friend class iterator_core_access;
+iterator/transform_iterator.hpp:    friend class iterator_core_access;
+iterator/zip_iterator.hpp:   // iterator_core_access is the iterator's best friend.
+iterator/zip_iterator.hpp:   friend class iterator_core_access;
+lambda/closures.hpp:    friend class closure_member;
+lambda/closures.hpp:    friend class closure_frame;
+locale/boundary/index.hpp:                friend class boundary_point_index<base_iterator>;
+locale/boundary/index.hpp:                friend class segment_index<base_iterator>;
+locale/date_time.hpp:            friend class date_time;
+locale/format.hpp:                friend stream_type &operator<<(stream_type &out,formattible const &fmt)
+move/iterator.hpp:   friend bool operator==(const move_iterator& x, const move_iterator& y)
+move/iterator.hpp:   friend bool operator!=(const move_iterator& x, const move_iterator& y)
+move/iterator.hpp:   friend bool operator< (const move_iterator& x, const move_iterator& y)
+move/iterator.hpp:   friend bool operator<=(const move_iterator& x, const move_iterator& y)
+move/iterator.hpp:   friend bool operator> (const move_iterator& x, const move_iterator& y)
+move/iterator.hpp:   friend bool operator>=(const move_iterator& x, const move_iterator& y)
+move/iterator.hpp:   friend difference_type operator-(const move_iterator& x, const move_iterator& y)
+move/iterator.hpp:   friend move_iterator operator+(difference_type n, const move_iterator& x)
+mpi/detail/forward_iprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+mpi/detail/forward_iprimitive.hpp:    friend class archive::load_access;
+mpi/detail/forward_oprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+mpi/detail/forward_oprimitive.hpp:    friend class archive::save_access;
+mpi/detail/forward_skeleton_iarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+mpi/detail/forward_skeleton_iarchive.hpp:    friend class archive::detail::interface_iarchive<Archive>;
+mpi/detail/forward_skeleton_iarchive.hpp:    friend class archive::load_access;
+mpi/detail/forward_skeleton_oarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+mpi/detail/forward_skeleton_oarchive.hpp:    friend class archive::detail::interface_oarchive<Archive>;
+mpi/detail/forward_skeleton_oarchive.hpp:    friend class archive::save_access;
+mpi/detail/ignore_oprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+mpi/detail/ignore_oprimitive.hpp:    friend class archive::save_access;
+mpi/detail/ignore_skeleton_oarchive.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+mpi/detail/ignore_skeleton_oarchive.hpp:    friend class archive::detail::interface_oarchive<Archive>;
+mpi/detail/ignore_skeleton_oarchive.hpp:    friend class archive::save_access;
+mpi/detail/packed_oprimitive.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+mpi/detail/packed_oprimitive.hpp:    friend class archive::save_access;
+mpi/graph_communicator.hpp:  friend class communicator;
+mpi/graph_communicator.hpp:    friend class boost::iterator_core_access;
+mpi/graph_communicator.hpp:    friend class boost::iterator_core_access;
+mpi/graph_communicator.hpp:    friend class boost::iterator_core_access;
+mpi/intercommunicator.hpp:  friend class communicator;
+mpi/request.hpp: public: // template friends are not portable
+mpi/request.hpp:  friend class communicator;
+mpi/status.hpp: public: // friend templates are not portable
+mpi/status.hpp:  friend class communicator;
+mpi/status.hpp:  friend class request;
+mpl/aux_/lambda_support.hpp:    friend class BOOST_PP_CAT(name,_rebind); \
+mpl/map/aux_/map0.hpp:    friend R BOOST_PP_CAT(BOOST_MPL_AUX_OVERLOAD_,f)(X const&, T) \
+mpl/set/aux_/set0.hpp:    friend R BOOST_PP_CAT(BOOST_MPL_AUX_OVERLOAD_,f)(X const&, T) \
+msm/back/state_machine.hpp:    // all state machines are friend with each other to allow embedding any of them in another fsm
+msm/back/state_machine.hpp:    > friend class boost::msm::back::state_machine;
+msm/back/state_machine.hpp:    // the IBM and VC<8 compilers seem to have problems with the friend declaration of dispatch_table
+msm/back/state_machine.hpp:    friend struct dispatch_table;
+multi_array/iterator.hpp:  friend class iterator_core_access;
+multi_array/iterator.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/iterator.hpp:    friend class array_iterator;
+multi_array/multi_array_ref.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/multi_array_ref.hpp:  // make const_multi_array_ref a friend of itself
+multi_array/multi_array_ref.hpp:  friend class const_multi_array_ref;
+multi_array/multi_array_ref.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/multi_array_ref.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/subarray.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/subarray.hpp:  template <typename,std::size_t> friend class value_accessor_n;  
+multi_array/subarray.hpp:  template <typename,std::size_t,typename> friend class const_sub_array;
+multi_array/subarray.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/subarray.hpp:  template <typename,std::size_t> friend class value_accessor_n;
+multi_array/view.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/view.hpp:  template <typename,std::size_t> friend class multi_array_impl_base;
+multi_array/view.hpp:  template <typename,std::size_t,typename> friend class const_multi_array_view;
+multi_array/view.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+multi_array/view.hpp:  template <typename,std::size_t> friend class multi_array_impl_base;
+multi_index/detail/access_specifier.hpp:/* In those compilers that do not accept the member template friend syntax,
+multi_index/detail/access_specifier.hpp:#if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+multi_index/detail/access_specifier.hpp:#define BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS public
+multi_index/detail/access_specifier.hpp:#define BOOST_MULTI_INDEX_PRIVATE_IF_MEMBER_TEMPLATE_FRIENDS public
+multi_index/detail/access_specifier.hpp:#define BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS protected
+multi_index/detail/access_specifier.hpp:#define BOOST_MULTI_INDEX_PRIVATE_IF_MEMBER_TEMPLATE_FRIENDS private
+multi_index/detail/bucket_array.hpp:  friend class boost::serialization::access;
+multi_index/detail/index_node_base.hpp:  friend class boost::serialization::access;
+multi_index/detail/iter_adaptor.hpp: * friend-injected operators on T are not visible if T is instantiated only
+multi_index/detail/iter_adaptor.hpp:  friend bool operator==(const Derived& x,const Derived& y)
+multi_index/detail/iter_adaptor.hpp:  friend bool operator==(const Derived& x,const Derived& y)
+multi_index/detail/iter_adaptor.hpp:  friend bool operator==(const Derived& x,const Derived& y)
+multi_index/detail/iter_adaptor.hpp:  friend bool operator<(const Derived& x,const Derived& y)
+multi_index/detail/iter_adaptor.hpp:  friend difference_type operator-(const Derived& x,const Derived& y)
+multi_index/detail/safe_mode.hpp:BOOST_MULTI_INDEX_PRIVATE_IF_MEMBER_TEMPLATE_FRIENDS:
+multi_index/detail/safe_mode.hpp:  friend class safe_container_base;
+multi_index/detail/safe_mode.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+multi_index/detail/safe_mode.hpp:  template<typename>          friend class safe_mode::safe_container;
+multi_index/detail/safe_mode.hpp:  template<typename Iterator> friend
+multi_index/detail/safe_mode.hpp:BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS:
+multi_index/detail/safe_mode.hpp:  friend class safe_iterator_base;
+multi_index/detail/safe_mode.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+multi_index/detail/safe_mode.hpp:  template<typename Iterator> friend
+multi_index/detail/safe_mode.hpp:  friend class boost::multi_index::detail::iter_adaptor_access;
+multi_index/detail/safe_mode.hpp:  friend class boost::serialization::access;
+multi_index/detail/serialization_version.hpp:  friend class boost::serialization::access;
+multi_index/detail/unbounded.hpp:  friend unbounded_helper multi_index::unbounded(unbounded_helper);
+multi_index/hashed_index.hpp:  BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS SuperMeta::type
+multi_index/hashed_index.hpp:BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS:
+multi_index/ordered_index.hpp:  BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS SuperMeta::type
+multi_index/ordered_index.hpp:BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS:
+multi_index/random_access_index.hpp:  BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS SuperMeta::type
+multi_index/random_access_index.hpp:BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS:
+multi_index/sequenced_index.hpp:  BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS SuperMeta::type
+multi_index/sequenced_index.hpp:BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS:
+multi_index_container.hpp:  BOOST_MULTI_INDEX_PRIVATE_IF_MEMBER_TEMPLATE_FRIENDS detail::header_holder<
+multi_index_container.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+multi_index_container.hpp:  template <typename,typename,typename> friend class  detail::index_base;
+multi_index_container.hpp:  template <typename,typename>          friend struct detail::header_holder;
+multi_index_container.hpp:  template <typename,typename>          friend struct detail::converter;
+multi_index_container.hpp:BOOST_MULTI_INDEX_PROTECTED_IF_MEMBER_TEMPLATE_FRIENDS:
+multi_index_container.hpp:  friend class boost::serialization::access;
+multiprecision/cpp_dec_float.hpp:   friend class cpp_dec_float;
+numeric/interval/interval.hpp:  // nevertheless, it's public because friends don't always work correctly.
+numeric/odeint/external/gsl/gsl_wrapper.hpp:    friend gsl_vector_iterator end_iterator( gsl_vector * );
+numeric/odeint/external/gsl/gsl_wrapper.hpp:    friend class boost::iterator_core_access;
+numeric/odeint/external/gsl/gsl_wrapper.hpp:    friend class const_gsl_vector_iterator;
+numeric/odeint/external/gsl/gsl_wrapper.hpp:    friend class boost::iterator_core_access;
+numeric/odeint/external/gsl/gsl_wrapper.hpp:    friend class gsl_vector_iterator;
+numeric/odeint/external/gsl/gsl_wrapper.hpp:    friend const_gsl_vector_iterator end_iterator( const gsl_vector * );
+numeric/ublas/banded.hpp:        friend void swap (banded_matrix &m1, banded_matrix &m2) {
+numeric/ublas/banded.hpp:            friend class const_iterator1;
+numeric/ublas/banded.hpp:            friend class const_iterator2;
+numeric/ublas/banded.hpp:        friend void swap (banded_adaptor &m1, banded_adaptor &m2) {
+numeric/ublas/banded.hpp:            friend class const_iterator1;
+numeric/ublas/banded.hpp:            friend class const_iterator2;
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator ++ (derived_iterator_type &d, int) {
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator ++ (derived_iterator_type &d, int) {
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator -- (derived_iterator_type &d, int) {
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator ++ (derived_iterator_type &d, int) {
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator -- (derived_iterator_type &d, int) {
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator + (const derived_iterator_type &d, derived_difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator + (derived_difference_type n, const derived_iterator_type &d) {
+numeric/ublas/detail/iterator.hpp:        friend derived_iterator_type operator - (const derived_iterator_type &d, derived_difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base operator + (const reverse_iterator_base &it, difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base operator + (difference_type n, const reverse_iterator_base &it) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base operator - (const reverse_iterator_base &it, difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend difference_type operator - (const reverse_iterator_base &it1, const reverse_iterator_base &it2) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base1 operator + (const reverse_iterator_base1 &it, difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base1 operator + (difference_type n, const reverse_iterator_base1 &it) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base1 operator - (const reverse_iterator_base1 &it, difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend difference_type operator - (const reverse_iterator_base1 &it1, const reverse_iterator_base1 &it2) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base2 operator + (const reverse_iterator_base2 &it, difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base2 operator + (difference_type n, const reverse_iterator_base2 &it) {
+numeric/ublas/detail/iterator.hpp:        friend reverse_iterator_base2 operator - (const reverse_iterator_base2 &it, difference_type n) {
+numeric/ublas/detail/iterator.hpp:        friend difference_type operator - (const reverse_iterator_base2 &it1, const reverse_iterator_base2 &it2) {
+numeric/ublas/detail/iterator.hpp:        friend class indexed_iterator<container_type, iterator_category>;
+numeric/ublas/detail/iterator.hpp:        friend class indexed_iterator1<container_type, iterator_category>;
+numeric/ublas/detail/iterator.hpp:        friend class indexed_iterator2<container_type, iterator_category>;
+numeric/ublas/experimental/sparse_view.hpp:        friend class iterator1;
+numeric/ublas/experimental/sparse_view.hpp:        friend class iterator2;
+numeric/ublas/experimental/sparse_view.hpp:        friend class const_iterator1;
+numeric/ublas/experimental/sparse_view.hpp:        friend class const_iterator2;
+numeric/ublas/hermitian.hpp:        friend void swap (hermitian_matrix_element p1, hermitian_matrix_element p2) {
+numeric/ublas/hermitian.hpp:        friend void swap (hermitian_matrix &m1, hermitian_matrix &m2) {
+numeric/ublas/hermitian.hpp:            friend class const_iterator1;
+numeric/ublas/hermitian.hpp:            friend class const_iterator2;
+numeric/ublas/hermitian.hpp:        friend void swap (hermitian_adaptor &m1, hermitian_adaptor &m2) {
+numeric/ublas/hermitian.hpp:            friend class const_iterator1;
+numeric/ublas/hermitian.hpp:            friend class const_iterator2;
+numeric/ublas/matrix.hpp:        friend void swap (matrix &m1, matrix &m2) {
+numeric/ublas/matrix.hpp:            friend class iterator1;
+numeric/ublas/matrix.hpp:            friend class const_iterator1;
+numeric/ublas/matrix.hpp:            friend class iterator2;
+numeric/ublas/matrix.hpp:            friend class const_iterator2;
+numeric/ublas/matrix.hpp:        friend void swap (vector_of_vector &m1, vector_of_vector &m2) {
+numeric/ublas/matrix.hpp:            friend class iterator1;
+numeric/ublas/matrix.hpp:            friend class const_iterator1;
+numeric/ublas/matrix.hpp:            friend class iterator2;
+numeric/ublas/matrix.hpp:            friend class const_iterator2;
+numeric/ublas/matrix.hpp:        friend void swap (zero_matrix &m1, zero_matrix &m2) {
+numeric/ublas/matrix.hpp:        friend void swap (identity_matrix &m1, identity_matrix &m2) {
+numeric/ublas/matrix.hpp:        friend void swap (scalar_matrix &m1, scalar_matrix &m2) {
+numeric/ublas/matrix.hpp:        friend void swap (c_matrix &m1, c_matrix &m2) {
+numeric/ublas/matrix.hpp:            friend class iterator1;
+numeric/ublas/matrix.hpp:            friend class const_iterator1;
+numeric/ublas/matrix.hpp:            friend class iterator2;
+numeric/ublas/matrix.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_row mr1, matrix_row mr2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_column mc1, matrix_column mc2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_vector_range mvr1, matrix_vector_range mvr2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_vector_slice mvs1, matrix_vector_slice mvs2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_vector_indirect mvi1, matrix_vector_indirect mvi2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_range mr1, matrix_range mr2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator1;
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_slice ms1, matrix_slice ms2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator1;
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_proxy.hpp:        friend void swap (matrix_indirect mi1, matrix_indirect mi2) {
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator1;
+numeric/ublas/matrix_proxy.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend void swap (mapped_matrix &m1, mapped_matrix &m2) {
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator1;
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend void swap (mapped_vector_of_mapped_vector &m1, mapped_vector_of_mapped_vector &m2) {
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator1;
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend void swap (compressed_matrix &m1, compressed_matrix &m2) {
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator1;
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend class iterator1;
+numeric/ublas/matrix_sparse.hpp:        friend class iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend class const_iterator1;
+numeric/ublas/matrix_sparse.hpp:        friend class const_iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend void swap (coordinate_matrix &m1, coordinate_matrix &m2) {
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator1;
+numeric/ublas/matrix_sparse.hpp:            friend class const_iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend class iterator1;
+numeric/ublas/matrix_sparse.hpp:        friend class iterator2;
+numeric/ublas/matrix_sparse.hpp:        friend class const_iterator1;
+numeric/ublas/matrix_sparse.hpp:        friend class const_iterator2;
+numeric/ublas/storage.hpp:        friend void swap (unbounded_array &a1, unbounded_array &a2) {
+numeric/ublas/storage.hpp:        friend class boost::serialization::access;
+numeric/ublas/storage.hpp:        friend void swap (bounded_array &a1, bounded_array &a2) {
+numeric/ublas/storage.hpp:        friend class boost::serialization::access;
+numeric/ublas/storage.hpp:        friend void swap (array_adaptor &a1, array_adaptor &a2) {
+numeric/ublas/storage.hpp:        friend void swap (shallow_array_adaptor &a1, shallow_array_adaptor &a2) {
+numeric/ublas/storage.hpp:        friend void swap(self_type& lhs, self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator == (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator != (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator < (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator >= (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator > (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator <= (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend void iter_swap(const iterator& lhs, const iterator& rhs) {
+numeric/ublas/storage.hpp:        // friend class value_type;
+numeric/ublas/storage.hpp:        friend class index_pair<self_type>;
+numeric/ublas/storage.hpp:        friend void swap(self_type& lhs, self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator == (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator != (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator < (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator >= (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator > (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend bool operator <= (const self_type& lhs, const self_type& rhs) {
+numeric/ublas/storage.hpp:        friend void iter_swap(const iterator& lhs, const iterator& rhs) {
+numeric/ublas/storage.hpp:        // friend class value_type;
+numeric/ublas/storage.hpp:        friend class index_triple<self_type>;
+numeric/ublas/storage_sparse.hpp:        friend void swap (sparse_storage_element p1, sparse_storage_element p2) {
+numeric/ublas/storage_sparse.hpp:        friend void swap (map_array &a1, map_array &a2) {
+numeric/ublas/symmetric.hpp:        friend void swap (symmetric_matrix &m1, symmetric_matrix &m2) {
+numeric/ublas/symmetric.hpp:            friend class const_iterator1;
+numeric/ublas/symmetric.hpp:            friend class const_iterator2;
+numeric/ublas/symmetric.hpp:        friend void swap (symmetric_adaptor &m1, symmetric_adaptor &m2) {
+numeric/ublas/symmetric.hpp:            friend class const_iterator1;
+numeric/ublas/symmetric.hpp:            friend class const_iterator2;
+numeric/ublas/triangular.hpp:        friend void swap (triangular_matrix &m1, triangular_matrix &m2) {
+numeric/ublas/triangular.hpp:            friend class const_iterator1;
+numeric/ublas/triangular.hpp:            friend class const_iterator2;
+numeric/ublas/triangular.hpp:        friend void swap (triangular_adaptor &m1, triangular_adaptor &m2) {
+numeric/ublas/triangular.hpp:            friend class const_iterator1;
+numeric/ublas/triangular.hpp:            friend class const_iterator2;
+numeric/ublas/vector.hpp:        friend void swap (vector &v1, vector &v2) {
+numeric/ublas/vector.hpp:            friend class iterator;
+numeric/ublas/vector.hpp:            friend class const_iterator;
+numeric/ublas/vector.hpp:        friend void swap (zero_vector &v1, zero_vector &v2) {
+numeric/ublas/vector.hpp:        friend void swap (unit_vector &v1, unit_vector &v2) {
+numeric/ublas/vector.hpp:        friend void swap (scalar_vector &v1, scalar_vector &v2) {
+numeric/ublas/vector.hpp:        friend void swap (c_vector &v1, c_vector &v2) {
+numeric/ublas/vector.hpp:            friend class iterator;
+numeric/ublas/vector.hpp:                // EDG won't allow const self_type it doesn't allow friend access to it_
+numeric/ublas/vector.hpp:            friend class const_iterator;
+numeric/ublas/vector_of_vector.hpp:        friend void swap (generalized_vector_of_vector &m1, generalized_vector_of_vector &m2) {
+numeric/ublas/vector_of_vector.hpp:            friend class const_iterator1;
+numeric/ublas/vector_of_vector.hpp:            friend class const_iterator2;
+numeric/ublas/vector_proxy.hpp:        friend void swap (vector_range vr1, vector_range vr2) {
+numeric/ublas/vector_proxy.hpp:            friend class const_iterator;
+numeric/ublas/vector_proxy.hpp:        friend void swap (vector_slice vs1, vector_slice vs2) {
+numeric/ublas/vector_proxy.hpp:            friend class const_iterator;
+numeric/ublas/vector_proxy.hpp:        friend void swap (vector_indirect vi1, vector_indirect vi2) {
+numeric/ublas/vector_proxy.hpp:            friend class const_iterator;
+numeric/ublas/vector_sparse.hpp:        friend void swap (mapped_vector &v1, mapped_vector &v2) {
+numeric/ublas/vector_sparse.hpp:            friend class const_iterator;
+numeric/ublas/vector_sparse.hpp:        friend void swap (compressed_vector &v1, compressed_vector &v2) {
+numeric/ublas/vector_sparse.hpp:            friend class const_iterator;
+numeric/ublas/vector_sparse.hpp:        friend class iterator;
+numeric/ublas/vector_sparse.hpp:        friend class const_iterator;
+numeric/ublas/vector_sparse.hpp:        friend void swap (coordinate_vector &v1, coordinate_vector &v2) {
+numeric/ublas/vector_sparse.hpp:            friend class const_iterator;
+numeric/ublas/vector_sparse.hpp:        friend class iterator;
+numeric/ublas/vector_sparse.hpp:        friend class const_iterator;
+operators.hpp:// when inline friend functions are overloaded in namespaces other than the
+operators.hpp://  Note that friend functions defined in a class are implicitly inline.
+operators.hpp://  See the C++ std, 11.4 [class.friend] paragraph 5
+operators.hpp:     friend bool operator<=(const T& x, const U& y) { return !static_cast<bool>(x > y); }
+operators.hpp:     friend bool operator>=(const T& x, const U& y) { return !static_cast<bool>(x < y); }
+operators.hpp:     friend bool operator>(const U& x, const T& y)  { return y < x; }
+operators.hpp:     friend bool operator<(const U& x, const T& y)  { return y > x; }
+operators.hpp:     friend bool operator<=(const U& x, const T& y) { return !static_cast<bool>(y < x); }
+operators.hpp:     friend bool operator>=(const U& x, const T& y) { return !static_cast<bool>(y > x); }
+operators.hpp:     friend bool operator>(const T& x, const T& y)  { return y < x; }
+operators.hpp:     friend bool operator<=(const T& x, const T& y) { return !static_cast<bool>(y < x); }
+operators.hpp:     friend bool operator>=(const T& x, const T& y) { return !static_cast<bool>(x < y); }
+operators.hpp:     friend bool operator==(const U& y, const T& x) { return x == y; }
+operators.hpp:     friend bool operator!=(const U& y, const T& x) { return !static_cast<bool>(x == y); }
+operators.hpp:     friend bool operator!=(const T& y, const U& x) { return !static_cast<bool>(y == x); }
+operators.hpp:     friend bool operator!=(const T& x, const T& y) { return !static_cast<bool>(x == y); }
+operators.hpp://  NRVO-friendly implementation (contributed by Daniel Frey) ---------------//
+operators.hpp:  friend T operator OP( const T& lhs, const U& rhs )                          \
+operators.hpp:  friend T operator OP( const U& lhs, const T& rhs )                          \
+operators.hpp:  friend T operator OP( const T& lhs, const T& rhs )                          \
+operators.hpp:  friend T operator OP( const T& lhs, const U& rhs )                    \
+operators.hpp:  friend T operator OP( const U& lhs, const T& rhs )                    \
+operators.hpp:  friend T operator OP( const T& lhs, const T& rhs )                    \
+operators.hpp:  friend T operator OP( T lhs, const U& rhs ) { return lhs OP##= rhs; } \
+operators.hpp:  friend T operator OP( const U& lhs, T rhs ) { return rhs OP##= lhs; } \
+operators.hpp:  friend T operator OP( T lhs, const T& rhs ) { return lhs OP##= rhs; } \
+operators.hpp:  friend T operator OP( T lhs, const U& rhs ) { return lhs OP##= rhs; } \
+operators.hpp:  friend T operator OP( const U& lhs, const T& rhs )                    \
+operators.hpp:  friend T operator OP( T lhs, const T& rhs ) { return lhs OP##= rhs; } \
+operators.hpp:  friend T operator++(T& x, int)
+operators.hpp:  friend T operator--(T& x, int)
+operators.hpp://  (NRVO-friendly implementation contributed by Daniel Frey) ---------------//
+operators.hpp:  friend T operator OP( const T& lhs, const U& rhs )                          \
+operators.hpp:  friend T operator OP( const T& lhs, const T& rhs )                          \
+operators.hpp:  friend T operator OP( T lhs, const U& rhs ) { return lhs OP##= rhs; }       \
+operators.hpp:  friend T operator OP( T lhs, const T& rhs ) { return lhs OP##= rhs; }       \
+operators.hpp:  friend bool operator==(const T& x, const U& y)
+operators.hpp:  friend bool operator==(const T&x, const T&y)
+operators.hpp:  friend bool operator<=(const T& x, const U& y)
+operators.hpp:  friend bool operator>=(const T& x, const U& y)
+operators.hpp:  friend bool operator>(const U& x, const T& y)
+operators.hpp:  friend bool operator<(const U& x, const T& y)
+operators.hpp:  friend bool operator<=(const U& x, const T& y)
+operators.hpp:  friend bool operator>=(const U& x, const T& y)
+operators.hpp:  friend bool operator>(const T& x, const T& y)
+operators.hpp:  friend bool operator<=(const T& x, const T& y)
+operators.hpp:  friend bool operator>=(const T& x, const T& y)
+operators.hpp:  friend D requires_difference_operator(const T& x, const T& y) {
+parameter/aux_/arg_list.hpp:    friend yes_tag operator*(arg_list, key_type*);
+pending/bucket_sorter.hpp:    //    despite the friend decl.
+pending/bucket_sorter.hpp:    friend class stack;
+pending/queue.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+pending/queue.hpp:  friend bool operator== (const queue<_Tp1, _Seq1>&,
+pending/queue.hpp:  friend bool operator< (const queue<_Tp1, _Seq1>&,
+pending/queue.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+program_options/eof_iterator.hpp:        friend class iterator_core_access;
+program_options/options_description.hpp:        friend BOOST_PROGRAM_OPTIONS_DECL std::ostream& operator<<(std::ostream& os, 
+program_options/variables_map.hpp:        friend BOOST_PROGRAM_OPTIONS_DECL
+program_options/variables_map.hpp:        friend BOOST_PROGRAM_OPTIONS_DECL class variables_map;
+program_options/variables_map.hpp:        friend BOOST_PROGRAM_OPTIONS_DECL
+property_map/parallel/distributed_property_map.hpp:    friend class distributed_property_map;
+property_map/parallel/distributed_property_map.hpp:  friend struct data_t;
+property_map/parallel/global_index_map.hpp:  friend inline value_type 
+property_map/property_map_iterator.hpp:      friend class boost::iterator_core_access;
+property_map/property_map_iterator.hpp:      friend class boost::iterator_core_access;
+property_tree/detail/ptree_implementation.hpp:        friend class boost::iterator_core_access;
+property_tree/detail/ptree_implementation.hpp:        friend class boost::iterator_core_access;
+property_tree/detail/rapidxml.hpp:        friend class xml_node<Ch>;
+property_tree/ptree.hpp:        friend struct subs;
+property_tree/ptree.hpp:        friend class iterator;
+property_tree/ptree.hpp:        friend class const_iterator;
+property_tree/ptree.hpp:        friend class reverse_iterator;
+property_tree/ptree.hpp:        friend class const_reverse_iterator;
+proto/detail/any.hpp:                friend any operator<<(any, any);
+proto/detail/any.hpp:                friend any operator>>(any, any);
+proto/detail/any.hpp:                friend any operator*(any, any);
+proto/detail/any.hpp:                friend any operator/(any, any);
+proto/detail/any.hpp:                friend any operator%(any, any);
+proto/detail/any.hpp:                friend any operator+(any, any);
+proto/detail/any.hpp:                friend any operator-(any, any);
+proto/detail/any.hpp:                friend any operator<(any, any);
+proto/detail/any.hpp:                friend any operator>(any, any);
+proto/detail/any.hpp:                friend any operator<=(any, any);
+proto/detail/any.hpp:                friend any operator>=(any, any);
+proto/detail/any.hpp:                friend any operator==(any, any);
+proto/detail/any.hpp:                friend any operator!=(any, any);
+proto/detail/any.hpp:                friend any operator||(any, any);
+proto/detail/any.hpp:                friend any operator&&(any, any);
+proto/detail/any.hpp:                friend any operator&(any, any);
+proto/detail/any.hpp:                friend any operator|(any, any);
+proto/detail/any.hpp:                friend any operator^(any, any);
+proto/detail/any.hpp:                friend any operator,(any, any);
+proto/detail/any.hpp:                friend any operator->*(any, any);
+proto/detail/any.hpp:                friend any operator<<=(any, any);
+proto/detail/any.hpp:                friend any operator>>=(any, any);
+proto/detail/any.hpp:                friend any operator*=(any, any);
+proto/detail/any.hpp:                friend any operator/=(any, any);
+proto/detail/any.hpp:                friend any operator%=(any, any);
+proto/detail/any.hpp:                friend any operator+=(any, any);
+proto/detail/any.hpp:                friend any operator-=(any, any);
+proto/detail/any.hpp:                friend any operator&=(any, any);
+proto/detail/any.hpp:                friend any operator|=(any, any);
+proto/detail/any.hpp:                friend any operator^=(any, any);
+proto/transform/integral_c.hpp:/// Contains definition of the integral_c transform and friends.
+ptr_container/detail/map_iterator.hpp:            friend inline bool operator==( ref_pair l, ref_pair r )
+ptr_container/detail/map_iterator.hpp:            friend inline bool operator!=( ref_pair l, ref_pair r )
+ptr_container/detail/map_iterator.hpp:            friend inline bool operator<( ref_pair l, ref_pair r )
+ptr_container/detail/map_iterator.hpp:            friend inline bool operator>( ref_pair l, ref_pair r )
+ptr_container/detail/map_iterator.hpp:            friend inline bool operator<=( ref_pair l, ref_pair r )
+ptr_container/detail/map_iterator.hpp:            friend inline bool operator>=( ref_pair l, ref_pair r )
+ptr_container/detail/static_move_ptr.hpp:#include <boost/config.hpp> // Member template friends, put size_t in std.
+ptr_container/detail/static_move_ptr.hpp://#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+ptr_container/detail/static_move_ptr.hpp://    friend class static_move_ptr;
+python/class.hpp:    friend struct id_vector;
+python/def_visitor.hpp:# if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)                  \
+python/def_visitor.hpp:    // to work in the absence of member template friends.
+python/def_visitor.hpp:    template <class Derived> friend class def_visitor;
+python/def_visitor.hpp:    friend class def_visitor_access;
+python/def_visitor.hpp:# if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)                  \
+python/def_visitor.hpp:    // to work in the absence of member template friends.
+python/def_visitor.hpp:    template <class T, class X1, class X2, class X3> friend class class_;
+python/detail/decorated_type_id.hpp:    friend BOOST_PYTHON_DECL std::ostream& operator<<(std::ostream&, decorated_type_info const&);
+python/detail/raw_pyobject.hpp:// friendship to all the appropriate parties.
+python/detail/wrapper_base.hpp:      friend void initialize_wrapper(PyObject* self, wrapper_base* w);
+python/detail/wrapper_base.hpp:      friend PyObject* wrapper_base_::get_owner(wrapper_base const volatile& w);
+python/docstring_options.hpp:      friend struct objects::function;
+python/init.hpp:    friend class python::def_visitor_access;
+python/object/class.hpp:    // require use of template friend declarations.
+python/object/function.hpp:    friend class function_doc_signature_generator;
+python/object/pickle_support.hpp:    friend struct detail::pickle_suite_registration;
+python/object_core.hpp:      friend class python::def_visitor_access;
+python/operators.hpp:      friend class python::def_visitor_access;
+python/override.hpp:      friend class boost::python::override;
+python/override.hpp:    friend class detail::wrapper_base;
+python/pure_virtual.hpp:      friend class python::def_visitor_access;
+python/stl_iterator.hpp:    friend class boost::iterator_core_access;
+python/type_id.hpp:    friend BOOST_PYTHON_DECL std::ostream& operator<<(
+random/binomial_distribution.hpp:        friend std::basic_ostream<CharT,Traits>&
+random/binomial_distribution.hpp:        friend std::basic_istream<CharT,Traits>&
+random/binomial_distribution.hpp:        friend bool operator==(const param_type& lhs, const param_type& rhs)
+random/binomial_distribution.hpp:        friend bool operator!=(const param_type& lhs, const param_type& rhs)
+random/binomial_distribution.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/binomial_distribution.hpp:    friend std::basic_istream<CharT,Traits>&
+random/binomial_distribution.hpp:    friend bool operator==(const binomial_distribution& lhs,
+random/binomial_distribution.hpp:    friend bool operator!=(const binomial_distribution& lhs,
+random/chi_squared_distribution.hpp:        friend std::basic_ostream<CharT,Traits>&
+random/chi_squared_distribution.hpp:        friend std::basic_istream<CharT,Traits>&
+random/chi_squared_distribution.hpp:        friend bool operator==(const param_type& lhs, const param_type& rhs)
+random/chi_squared_distribution.hpp:        friend bool operator!=(const param_type& lhs, const param_type& rhs)
+random/chi_squared_distribution.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/chi_squared_distribution.hpp:    friend std::basic_istream<CharT,Traits>&
+random/chi_squared_distribution.hpp:    friend bool operator==(const chi_squared_distribution& lhs,
+random/chi_squared_distribution.hpp:    friend bool operator!=(const chi_squared_distribution& lhs,
+random/detail/config.hpp:#if (defined(BOOST_NO_OPERATORS_IN_NAMESPACE) || defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)) \
+random/detail/iterator_mixin.hpp:// must be in boost namespace, otherwise the inline friend trick fails
+random/detail/operators.hpp:    friend std::basic_ostream<CharT,Traits>&                            \
+random/detail/operators.hpp:    friend std::basic_istream<CharT,Traits>&                            \
+random/detail/operators.hpp:    friend std::basic_ostream<CharT,Traits>&                            \
+random/detail/operators.hpp:    friend std::basic_istream<CharT,Traits>&                            \
+random/detail/operators.hpp:    friend bool operator==(const T& lhs, const T& rhs)
+random/detail/operators.hpp:    friend bool operator!=(const T& lhs, const T& rhs)                  \
+random/discard_block.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/discard_block.hpp:    friend std::basic_istream<CharT,Traits>&
+random/discard_block.hpp:    friend bool operator==(const discard_block_engine& x,
+random/discard_block.hpp:    friend bool operator!=(const discard_block_engine& x,
+random/discrete_distribution.hpp:        friend class discrete_distribution;
+random/gamma_distribution.hpp:        friend std::basic_ostream<CharT, Traits>&
+random/gamma_distribution.hpp:        friend std::basic_istream<CharT, Traits>&
+random/gamma_distribution.hpp:        friend bool operator==(const param_type& lhs, const param_type& rhs)
+random/gamma_distribution.hpp:        friend bool operator!=(const param_type& lhs, const param_type& rhs)
+random/gamma_distribution.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/gamma_distribution.hpp:    friend std::basic_istream<CharT,Traits>&
+random/gamma_distribution.hpp:    friend bool operator==(const gamma_distribution& lhs,
+random/gamma_distribution.hpp:    friend bool operator!=(const gamma_distribution& lhs,
+random/linear_congruential.hpp:    friend bool operator==(const linear_congruential_engine& x,
+random/linear_congruential.hpp:    friend bool operator!=(const linear_congruential_engine& x,
+random/linear_congruential.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/linear_congruential.hpp:    friend std::basic_istream<CharT,Traits>&
+random/linear_congruential.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/linear_congruential.hpp:    friend std::basic_istream<CharT,Traits>&
+random/linear_congruential.hpp:    friend bool operator==(const rand48& x, const rand48& y)
+random/linear_congruential.hpp:    friend bool operator!=(const rand48& x, const rand48& y)
+random/mersenne_twister.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/mersenne_twister.hpp:    friend std::basic_istream<CharT,Traits>&
+random/mersenne_twister.hpp:    friend bool operator==(const mersenne_twister_engine& x,
+random/mersenne_twister.hpp:    friend bool operator!=(const mersenne_twister_engine& x,
+random/mersenne_twister.hpp:     * members of the class from inline friend functions.
+random/negative_binomial_distribution.hpp:        friend std::basic_ostream<CharT,Traits>&
+random/negative_binomial_distribution.hpp:        friend std::basic_istream<CharT,Traits>&
+random/negative_binomial_distribution.hpp:        friend bool operator==(const param_type& lhs, const param_type& rhs)
+random/negative_binomial_distribution.hpp:        friend bool operator!=(const param_type& lhs, const param_type& rhs)
+random/negative_binomial_distribution.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/negative_binomial_distribution.hpp:    friend std::basic_istream<CharT,Traits>&
+random/negative_binomial_distribution.hpp:    friend bool operator==(const negative_binomial_distribution& lhs,
+random/negative_binomial_distribution.hpp:    friend bool operator!=(const negative_binomial_distribution& lhs,
+random/piecewise_constant_distribution.hpp:        friend class piecewise_constant_distribution;
+random/piecewise_linear_distribution.hpp:        friend class piecewise_linear_distribution;
+random/poisson_distribution.hpp:        friend std::basic_ostream<CharT, Traits>&
+random/poisson_distribution.hpp:        friend std::basic_istream<CharT, Traits>&
+random/poisson_distribution.hpp:        friend bool operator==(const param_type& lhs, const param_type& rhs)
+random/poisson_distribution.hpp:        friend bool operator!=(const param_type& lhs, const param_type& rhs)
+random/poisson_distribution.hpp:    friend std::basic_ostream<CharT,Traits>&
+random/poisson_distribution.hpp:    friend std::basic_istream<CharT,Traits>&
+random/poisson_distribution.hpp:    friend bool operator==(const poisson_distribution& lhs,
+random/poisson_distribution.hpp:    friend bool operator!=(const poisson_distribution& lhs,
+random/subtract_with_carry.hpp:    friend struct detail::subtract_with_carry_discard;
+random/subtract_with_carry.hpp:    friend struct detail::subtract_with_carry_discard;
+random/uniform_01.hpp:  friend std::basic_ostream<CharT,Traits>&
+random/uniform_01.hpp:  friend std::basic_istream<CharT,Traits>&
+random/uniform_01.hpp:  friend std::basic_ostream<CharT,Traits>&
+random/uniform_01.hpp:  friend std::basic_istream<CharT,Traits>&
+random/uniform_01.hpp:#if !defined(BOOST_NO_OPERATORS_IN_NAMESPACE) && !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+random/uniform_01.hpp:  friend std::basic_ostream<CharT,Traits>&
+random/uniform_01.hpp:  friend std::basic_istream<CharT,Traits>&
+random/uniform_01.hpp:#if !defined(BOOST_NO_OPERATORS_IN_NAMESPACE) && !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+random/uniform_01.hpp:  friend std::basic_ostream<CharT,Traits>&
+random/uniform_01.hpp:  friend std::basic_istream<CharT,Traits>&
+range/adaptor/indexed.hpp:            friend class boost::iterator_core_access;
+range/adaptor/strided.hpp:            friend class ::boost::iterator_core_access;
+range/adaptor/strided.hpp:            friend class ::boost::iterator_core_access;
+range/adaptor/strided.hpp:            friend class ::boost::iterator_core_access;
+range/detail/any_iterator.hpp:            friend class any_iterator;
+range/detail/any_iterator.hpp:            friend class ::boost::iterator_core_access;
+range/detail/join_iterator.hpp:    friend class ::boost::iterator_core_access;
+range/detail/microsoft.hpp:    template< class, class, class, class > friend struct list_iterator;
+range/detail/microsoft.hpp:    friend class iterator_core_access;
+range/irange.hpp:            friend class ::boost::iterator_core_access;
+range/irange.hpp:            friend class ::boost::iterator_core_access;
+range/mfc.hpp:    template< class, class > friend struct mfc_ptr_array_iterator;
+range/mfc.hpp:    friend class iterator_core_access;
+range/mfc.hpp:    template< class, class, class > friend struct mfc_map_iterator;
+range/mfc.hpp:    friend class iterator_core_access;
+range/mfc.hpp:    template< class, class > friend struct mfc_cpair_map_iterator;
+range/mfc.hpp:    friend class iterator_core_access;
+regex/pending/object_cache.hpp:   friend struct data;
+regex/v4/cregex.hpp:   friend struct re_detail::pred1;
+regex/v4/cregex.hpp:   friend struct re_detail::pred2;
+regex/v4/cregex.hpp:   friend struct re_detail::pred3;
+regex/v4/cregex.hpp:   friend struct re_detail::pred4;
+regex/v4/fileiter.hpp:   friend class mapfile_iterator;
+regex/v4/fileiter.hpp:   friend inline bool operator==(const mapfile_iterator& i, const mapfile_iterator& j)
+regex/v4/fileiter.hpp:   friend inline bool operator!=(const mapfile_iterator& i, const mapfile_iterator& j)
+regex/v4/fileiter.hpp:   friend inline bool operator<(const mapfile_iterator& i, const mapfile_iterator& j)
+regex/v4/fileiter.hpp:   friend inline bool operator>(const mapfile_iterator& i, const mapfile_iterator& j)
+regex/v4/fileiter.hpp:   friend inline bool operator<=(const mapfile_iterator& i, const mapfile_iterator& j)
+regex/v4/fileiter.hpp:   friend inline bool operator>=(const mapfile_iterator& i, const mapfile_iterator& j)
+regex/v4/fileiter.hpp:   friend mapfile_iterator operator + (const mapfile_iterator& i, long off);
+regex/v4/fileiter.hpp:   friend mapfile_iterator operator + (long off, const mapfile_iterator& i)
+regex/v4/fileiter.hpp:   friend mapfile_iterator operator - (const mapfile_iterator& i, long off);
+regex/v4/fileiter.hpp:   friend inline long operator - (const mapfile_iterator& i, const mapfile_iterator& j)
+regex/v4/fileiter.hpp:   friend inline bool operator == (const file_iterator& f1, const file_iterator& f2)
+regex/v4/fileiter.hpp:   friend inline bool operator != (const file_iterator& f1, const file_iterator& f2)
+regex/v4/fileiter.hpp:   friend inline bool operator == (const directory_iterator& f1, const directory_iterator& f2)
+regex/v4/fileiter.hpp:   friend inline bool operator != (const directory_iterator& f1, const directory_iterator& f2)
+scope_exit.hpp:    friend void operator>(int, declared const&) {}
+serialization/access.hpp:// "friend class boost::serialization::access;" 
+serialization/access.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+serialization/access.hpp:    friend struct detail::member_saver;
+serialization/access.hpp:    friend struct detail::member_loader;
+serialization/access.hpp:    friend class archive::detail::iserializer;
+serialization/access.hpp:    friend class archive::detail::oserializer;
+serialization/access.hpp:    friend inline void serialize(
+serialization/access.hpp:    friend inline void save_construct_data(
+serialization/access.hpp:    friend inline void load_construct_data(
+serialization/detail/shared_count_132.hpp:    friend class weak_count;
+serialization/detail/shared_count_132.hpp:    friend inline bool operator==(shared_count const & a, shared_count const & b)
+serialization/detail/shared_count_132.hpp:    friend inline bool operator<(shared_count const & a, shared_count const & b)
+serialization/detail/shared_count_132.hpp:    friend class shared_count;
+serialization/detail/shared_count_132.hpp:    friend inline bool operator==(weak_count const & a, weak_count const & b)
+serialization/detail/shared_count_132.hpp:    friend inline bool operator<(weak_count const & a, weak_count const & b)
+serialization/detail/shared_ptr_132.hpp:// to work in the absence of member template friends. (Matthew Langston)
+serialization/detail/shared_ptr_132.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+serialization/detail/shared_ptr_132.hpp:    template<class Y> friend class shared_ptr;
+serialization/detail/shared_ptr_132.hpp:    template<class Y> friend class weak_ptr;
+serialization/extended_type_info.hpp:    friend class boost::serialization::void_cast_detail::void_caster;
+serialization/serialization.hpp:// by specifying friend class boost::serialization::access
+serialization/void_cast.hpp:    friend 
+serialization/void_cast.hpp:    friend 
+signals/connection.hpp:      friend class detail::signal_base_impl;
+signals/connection.hpp:      friend class detail::slot_base;
+signals/connection.hpp:      friend class trackable;
+signals/connection.hpp:      friend class BOOST_SIGNALS_NAMESPACE::detail::bound_objects_visitor;
+signals/detail/named_slot_map.hpp:  friend class named_slot_map;
+signals/detail/signal_base.hpp:        friend class call_notification;
+signals/detail/signal_base.hpp:        friend class temporarily_set_clearing;
+signals/detail/signal_base.hpp:        friend class call_notification;
+signals/detail/slot_call_iterator.hpp:        friend class iterator_core_access;
+signals/slot.hpp:        // friends to make this private (as it otherwise should be). We can't
+signals/slot.hpp:    // We would have to enumerate all of the signalN classes here as friends
+signals/trackable.hpp:    friend class detail::signal_base_impl;
+signals/trackable.hpp:    friend class detail::slot_base;
+signals2/connection.hpp:      friend class shared_connection_block;
+signals2/deconstruct.hpp:    friend class boost::signals2::deconstruct_access;
+signals2/detail/signal_template.hpp:      friend class detail::BOOST_SIGNALS2_WEAK_SIGNAL_CLASS_NAME(BOOST_SIGNALS2_NUM_ARGS)
+signals2/detail/slot_call_iterator.hpp:        friend class boost::iterator_core_access;
+signals2/detail/slot_template.hpp:      friend class BOOST_SIGNALS2_SLOT_CLASS_NAME(BOOST_SIGNALS2_NUM_ARGS);
+signals2/postconstructible.hpp:        friend void detail::do_postconstruct(const postconstructible *ptr);
+signals2/postconstructible.hpp:          friend void adl_postconstruct(const shared_ptr<T> &sp, postconstructible *p)
+signals2/predestructible.hpp:          friend void adl_postconstruct(const shared_ptr<T> &, ...)
+signals2/predestructible.hpp:        friend void adl_predestruct(predestructible *p)
+signals2/signal_base.hpp:      friend class slot_base;
+signals2/slot_base.hpp:      friend class detail::tracked_objects_visitor;
+signals2/trackable.hpp:      friend class detail::tracked_objects_visitor;
+smart_ptr/detail/allocate_array_helper.hpp:            friend class allocate_array_helper;
+smart_ptr/detail/allocate_array_helper.hpp:            friend class allocate_array_helper;
+smart_ptr/detail/lwm_pthreads.hpp:    friend class scoped_lock;
+smart_ptr/detail/lwm_win32_cs.hpp:    friend class scoped_lock;
+smart_ptr/detail/make_array_helper.hpp:            friend class make_array_helper;
+smart_ptr/detail/make_array_helper.hpp:            friend class make_array_helper;
+smart_ptr/detail/shared_count.hpp:    friend class weak_count;
+smart_ptr/detail/shared_count.hpp:    friend inline bool operator==(shared_count const & a, shared_count const & b)
+smart_ptr/detail/shared_count.hpp:    friend inline bool operator<(shared_count const & a, shared_count const & b)
+smart_ptr/detail/shared_count.hpp:    friend class shared_count;
+smart_ptr/detail/shared_count.hpp:    friend inline bool operator==(weak_count const & a, weak_count const & b)
+smart_ptr/detail/shared_count.hpp:    friend inline bool operator<(weak_count const & a, weak_count const & b)
+smart_ptr/enable_shared_from_raw.hpp:#ifdef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+smart_ptr/enable_shared_from_raw.hpp:    template<class Y> friend class shared_ptr;
+smart_ptr/enable_shared_from_raw.hpp:    template<typename T> friend boost::shared_ptr<T> shared_from_raw(T *);
+smart_ptr/enable_shared_from_raw.hpp:    template<typename T> friend boost::weak_ptr<T> weak_from_raw(T *);
+smart_ptr/enable_shared_from_raw.hpp:    template< class X, class Y > friend inline void detail::sp_enable_shared_from_this( boost::shared_ptr<X> * ppx, Y const * py, boost::enable_shared_from_raw const * pe );
+smart_ptr/enable_shared_from_this.hpp:public: // actually private, but avoids compiler template friendship issues
+smart_ptr/shared_array.hpp:    template<class Y> friend class shared_array;
+smart_ptr/shared_ptr.hpp:// to work in the absence of member template friends. (Matthew Langston)
+smart_ptr/shared_ptr.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+smart_ptr/shared_ptr.hpp:    template<class Y> friend class shared_ptr;
+smart_ptr/shared_ptr.hpp:    template<class Y> friend class weak_ptr;
+smart_ptr/weak_ptr.hpp:// to work in the absence of member template friends. (Matthew Langston)
+smart_ptr/weak_ptr.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+smart_ptr/weak_ptr.hpp:    template<class Y> friend class weak_ptr;
+smart_ptr/weak_ptr.hpp:    template<class Y> friend class shared_ptr;
+spirit/home/classic/core/non_terminal/impl/grammar.ipp:        friend typename DerivedT::template definition<ScannerT> &
+spirit/home/classic/core/non_terminal/impl/grammar.ipp:    friend struct impl::grammartract_helper_list;    \
+spirit/home/classic/core/non_terminal/impl/rule.ipp:#if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) \
+spirit/home/classic/core/non_terminal/impl/rule.ipp:           friend class rule_base;
+spirit/home/classic/core/non_terminal/rule.hpp:        friend class impl::rule_base_access;
+spirit/home/classic/dynamic/stored_rule.hpp:        friend class impl::rule_base_access;
+spirit/home/classic/dynamic/stored_rule.hpp:        friend class stored_rule<T0, T1, T2, !EmbedByValue>;
+spirit/home/classic/iterator/file_iterator.hpp:    friend class ::boost::iterator_core_access;
+spirit/home/classic/iterator/fixed_size_queue.hpp:    friend class boost::iterator_core_access;
+spirit/home/classic/iterator/fixed_size_queue.hpp:    friend class impl::fsq_iterator<fixed_size_queue<T, N>, T, T*>;
+spirit/home/classic/iterator/fixed_size_queue.hpp:    friend class impl::fsq_iterator<fixed_size_queue<T, N>, T const, T const*>;
+spirit/home/classic/iterator/impl/file_iterator.ipp://  stream library (fopen and friends). This class and the following are
+spirit/home/classic/iterator/multi_pass.hpp:       friend struct Data;
+spirit/home/classic/iterator/position_iterator.hpp:    friend class boost::iterator_core_access;
+spirit/home/classic/iterator/position_iterator.hpp:    friend class position_iterator<ForwardIteratorT, PositionT,
+spirit/home/classic/phoenix/closures.hpp:    friend class closure_member;
+spirit/home/classic/phoenix/closures.hpp:    friend class closure_frame;
+spirit/home/karma/detail/indirect_iterator.hpp:        friend class boost::iterator_core_access;
+spirit/home/karma/nonterminal/rule.hpp:        friend rule& operator%=(rule& r, Expr const& expr)
+spirit/home/karma/nonterminal/rule.hpp:        friend rule& operator%=(rule& r, Expr& expr)
+spirit/home/karma/nonterminal/rule.hpp:        friend rule& operator%=(rule& r, Expr&& expr)
+spirit/home/karma/nonterminal/rule.hpp:        // both friend functions have to be defined out of class as VC7.1
+spirit/home/karma/nonterminal/rule.hpp:        friend rule<OutputIterator_, T1_, T2_, T3_, T4_>& operator%=(
+spirit/home/karma/nonterminal/rule.hpp:        friend rule<OutputIterator_, T1_, T2_, T3_, T4_>& operator%=(
+spirit/home/karma/string/symbols.hpp:        friend adder const&
+spirit/home/karma/string/symbols.hpp:        friend remover const&
+spirit/home/karma/string/symbols.hpp:        friend adder const&
+spirit/home/karma/string/symbols.hpp:        friend remover const&
+spirit/home/karma/string/symbols.hpp:        friend adder const&
+spirit/home/karma/string/symbols.hpp:        friend remover const&
+spirit/home/karma/string/symbols.hpp:        friend adder const&
+spirit/home/karma/string/symbols.hpp:        friend remover const&
+spirit/home/karma/string/symbols.hpp:        friend adder const&
+spirit/home/karma/string/symbols.hpp:        friend remover const&
+spirit/home/lex/lexer/lexer.hpp:            friend struct adder;
+spirit/home/lex/lexer/lexer.hpp:            friend struct pattern_adder;
+spirit/home/lex/lexer/lexertl/functor.hpp:        friend class FunctorData<Iterator, SupportsActors, SupportsState
+spirit/home/lex/lexer/lexertl/lexer.hpp:        friend bool generate_static(Lexer const&
+spirit/home/phoenix/core/reference.hpp:        // $$$ TODO: a better (user friendly) static assert
+spirit/home/phoenix/scope/dynamic.hpp:        friend struct dynamic_member;
+spirit/home/phoenix/scope/dynamic.hpp:        friend struct dynamic_frame;
+spirit/home/qi/nonterminal/rule.hpp:        friend rule& operator%=(rule& r, Expr const& expr)
+spirit/home/qi/nonterminal/rule.hpp:        friend rule& operator%=(rule& r, Expr& expr)
+spirit/home/qi/nonterminal/rule.hpp:        friend rule& operator%=(rule& r, Expr&& expr)
+spirit/home/qi/nonterminal/rule.hpp:        // both friend functions have to be defined out of class as VC7.1
+spirit/home/qi/nonterminal/rule.hpp:        friend rule<OutputIterator_, T1_, T2_, T3_, T4_>& operator%=(
+spirit/home/qi/nonterminal/rule.hpp:        friend rule<OutputIterator_, T1_, T2_, T3_, T4_>& operator%=(
+spirit/home/qi/operator/expect.hpp:        friend struct sequence_base<expect<Elements>, Elements>;
+spirit/home/qi/operator/sequence.hpp:        friend struct sequence_base<sequence<Elements>, Elements>;
+spirit/home/qi/string/symbols.hpp:        friend adder const&
+spirit/home/qi/string/symbols.hpp:        friend remover const&
+spirit/home/qi/string/symbols.hpp:        friend adder const&
+spirit/home/qi/string/symbols.hpp:        friend remover const&
+spirit/home/qi/string/symbols.hpp:        friend adder const&
+spirit/home/qi/string/symbols.hpp:        friend remover const&
+spirit/home/qi/string/tst.hpp:        friend struct detail::tst_node<Char, T>;
+spirit/home/qi/string/tst_map.hpp:        friend struct detail::tst_node<Char, T>;
+spirit/home/support/char_encoding/unicode/create_tables.cpp:    friend bool operator<(ucd_range const& a, ucd_range const& b)
+spirit/home/support/char_encoding/unicode/create_tables.cpp:        friend bool operator<(block_ptr a, block_ptr b)
+spirit/home/support/detail/endian/cover_operators.hpp:      friend IntegerType operator+(const T& x) { return x; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend IntegerType operator-(const T& x) { return -+x; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend IntegerType operator~(const T& x) { return ~+x; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend IntegerType operator!(const T& x) { return !+x; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend bool operator==(const T& x, IntegerType y) { return +x == y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend bool operator<(const T& x, IntegerType y) { return +x < y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator+=(T& x, IntegerType y) { return x = +x + y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator-=(T& x, IntegerType y) { return x = +x - y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator*=(T& x, IntegerType y) { return x = +x * y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator/=(T& x, IntegerType y) { return x = +x / y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator%=(T& x, IntegerType y) { return x = +x % y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator&=(T& x, IntegerType y) { return x = +x & y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator|=(T& x, IntegerType y) { return x = +x | y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator^=(T& x, IntegerType y) { return x = +x ^ y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator<<=(T& x, IntegerType y) { return x = +x << y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator>>=(T& x, IntegerType y) { return x = +x >> y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend IntegerType operator<<(const T& x, IntegerType y) { return +x << y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend IntegerType operator>>(const T& x, IntegerType y) { return +x >> y; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator++(T& x) { return x += 1; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T& operator--(T& x) { return x -= 1; }
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T operator++(T& x, int)
+spirit/home/support/detail/endian/cover_operators.hpp:      friend T operator--(T& x, int)
+spirit/home/support/detail/endian/cover_operators.hpp:      friend std::ostream& operator<<(std::ostream& s, const T& x)
+spirit/home/support/detail/endian/cover_operators.hpp:      friend std::istream& operator>>(std::istream& s, T& x)
+spirit/home/support/detail/hold_any.hpp:        friend inline std::basic_istream<Char_>& 
+spirit/home/support/detail/hold_any.hpp:        friend inline std::basic_ostream<Char_>& 
+spirit/home/support/detail/hold_any.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+spirit/home/support/detail/hold_any.hpp:        friend T* any_cast(basic_hold_any<Char_> *);
+spirit/home/support/detail/hold_any.hpp:    public: // types (public so any_cast can be non-friend)
+spirit/home/support/detail/lexer/file_input.hpp:        friend basic_file_input;
+spirit/home/support/detail/lexer/file_input.hpp:        friend class basic_file_input;
+spirit/home/support/detail/lexer/file_input.hpp:    friend iterator;
+spirit/home/support/detail/lexer/file_input.hpp:    friend class iterator;
+spirit/home/support/detail/lexer/input.hpp:        friend basic_input;
+spirit/home/support/detail/lexer/input.hpp:        friend class basic_input;
+spirit/home/support/detail/lexer/input.hpp:    friend iterator;
+spirit/home/support/detail/lexer/input.hpp:    friend class iterator;
+spirit/home/support/detail/lexer/state_machine.hpp:        friend basic_state_machine;
+spirit/home/support/detail/lexer/state_machine.hpp:        friend class basic_state_machine;
+spirit/home/support/detail/lexer/state_machine.hpp:    friend iterator;
+spirit/home/support/detail/lexer/state_machine.hpp:    friend class iterator;
+spirit/home/support/iterators/detail/fixed_size_queue.hpp:        friend class boost::iterator_core_access;
+spirit/home/support/iterators/detail/fixed_size_queue.hpp:        friend class fsq_iterator<fixed_size_queue<T, N>, T, T*>;
+spirit/home/support/iterators/detail/fixed_size_queue.hpp:        friend class fsq_iterator<fixed_size_queue<T, N>, T const, T const*>;
+spirit/home/support/iterators/line_pos_iterator.hpp:        friend class boost::iterator_core_access;
+spirit/home/support/utree/detail/utree_detail2.hpp:        friend class boost::iterator_core_access;
+spirit/home/support/utree/detail/utree_detail2.hpp:        friend class boost::spirit::utree;
+spirit/home/support/utree/detail/utree_detail2.hpp:        friend struct boost::spirit::detail::list;
+spirit/home/support/utree/detail/utree_detail2.hpp:        friend class boost::iterator_core_access;
+spirit/home/support/utree/detail/utree_detail2.hpp:        friend class boost::spirit::utree;
+spirit/home/support/utree/detail/utree_detail2.hpp:        friend struct boost::spirit::detail::list;
+spirit/home/support/utree/utree.hpp:        friend bool operator==(any_ptr const& a, any_ptr const& b)
+spirit/home/support/utree/utree.hpp:        friend struct detail::visit_impl;
+spirit/home/support/utree/utree.hpp:        friend class utree;
+spirit/home/support/utree/utree.hpp:        friend struct detail::visit_impl;
+spirit/home/support/utree/utree.hpp:        friend struct detail::index_impl;
+spirit/repository/home/karma/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+spirit/repository/home/karma/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+spirit/repository/home/karma/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+spirit/repository/home/karma/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+spirit/repository/home/qi/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+spirit/repository/home/qi/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+spirit/repository/home/qi/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+spirit/repository/home/qi/nonterminal/subrule.hpp:        friend typename group_type_helper<Expr, true>::type
+statechart/asynchronous_state_machine.hpp:    // They are only public because many compilers lack template friends.
+statechart/custom_reaction.hpp:    // They are only public because many compilers lack template friends.
+statechart/custom_reaction.hpp:    // They are only public because many compilers lack template friends.
+statechart/deep_history.hpp:    // They are only public because many compilers lack template friends.
+statechart/deferral.hpp:    // They are only public because many compilers lack template friends.
+statechart/deferral.hpp:    // They are only public because many compilers lack template friends.
+statechart/detail/counted_base.hpp:    // They are only public because many compilers lack template friends.
+statechart/detail/leaf_state.hpp:    // They are only public because many compilers lack template friends.
+statechart/detail/node_state.hpp:    // They are only public because many compilers lack template friends.
+statechart/detail/node_state.hpp:    // They are only public because many compilers lack template friends.
+statechart/detail/state_base.hpp:    // They are only protected because many compilers lack template friends.
+statechart/detail/state_base.hpp:    // They are only public because many compilers lack template friends.
+statechart/event_base.hpp:// compilers on how a friend declaration for a function in another namespace
+statechart/event_base.hpp:    friend class detail::delete_helper;
+statechart/exception_translator.hpp:    // They are only public because many compilers lack template friends.
+statechart/in_state_reaction.hpp:    // They are only public because many compilers lack template friends.
+statechart/null_exception_translator.hpp:    // They are only public because many compilers lack template friends.
+statechart/processor_container.hpp:        friend class processor_container;
+statechart/processor_container.hpp:        friend class event_processor< Scheduler >;
+statechart/result.hpp:    friend struct result_utility;
+statechart/shallow_history.hpp:    // They are only public because many compilers lack template friends.
+statechart/simple_state.hpp:    // They are only public because many compilers lack template friends.
+statechart/simple_state.hpp:    friend struct context_ptr_impl_other_context;
+statechart/simple_state.hpp:    friend struct context_ptr_impl_my_context;
+statechart/simple_state.hpp:    friend struct context_impl_other_context;
+statechart/simple_state.hpp:    friend struct context_impl_this_context;
+statechart/simple_state.hpp:    friend struct local_react_impl_non_empty;
+statechart/simple_state.hpp:    friend struct outer_state_ptr_impl_non_outermost;
+statechart/simple_state.hpp:    friend struct check_store_shallow_history_impl_yes;
+statechart/simple_state.hpp:    friend struct check_store_deep_history_impl_yes;
+statechart/state.hpp:    // They are only public because many compilers lack template friends.
+statechart/state_machine.hpp:    friend bool operator<(
+statechart/state_machine.hpp:    // They are only public because many compilers lack template friends.
+statechart/state_machine.hpp:    // They are only public because many compilers lack template friends.
+statechart/state_machine.hpp:    friend class initial_construct_function;
+statechart/state_machine.hpp:    friend class terminate_function;
+statechart/state_machine.hpp:    friend class exception_event_handler;
+statechart/state_machine.hpp:    friend class terminator;
+statechart/termination.hpp:    // They are only public because many compilers lack template friends.
+statechart/termination.hpp:    // They are only public because many compilers lack template friends.
+statechart/transition.hpp:    // They are only public because many compilers lack template friends.
+system/error_code.hpp:      inline friend bool operator==( const error_condition & lhs,
+system/error_code.hpp:      inline friend bool operator<( const error_condition & lhs,
+system/error_code.hpp:      inline friend bool operator==( const error_code & lhs,
+system/error_code.hpp:      inline friend bool operator<( const error_code & lhs,
+test/unit_test_suite_impl.hpp:    friend class framework_impl;
+test/unit_test_suite_impl.hpp:    friend BOOST_TEST_DECL 
+test/unit_test_suite_impl.hpp:    friend class framework_impl;
+test/utils/class_properties.hpp:#define BOOST_READONLY_PROPERTY( property_type, friends ) boost::unit_test::readwrite_property<property_type >
+test/utils/class_properties.hpp:#define BOOST_READONLY_PROPERTY_DECLARE_FRIEND(r, data, elem) friend class elem;
+test/utils/class_properties.hpp:#define BOOST_READONLY_PROPERTY( property_type, friends )                           \
+test/utils/class_properties.hpp:    BOOST_PP_SEQ_FOR_EACH( BOOST_READONLY_PROPERTY_DECLARE_FRIEND, ' ', friends )   \
+test/utils/fixed_mapping.hpp:    struct p1; friend struct p1;
+test/utils/fixed_mapping.hpp:    struct p2; friend struct p2;
+test/utils/iterator/input_iterator_facade.hpp:#if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) || BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+test/utils/iterator/input_iterator_facade.hpp:    template <class I, class V, class R, class TC> friend class input_iterator_facade;
+test/utils/iterator/input_iterator_facade.hpp:    friend class boost::iterator_core_access;
+test/utils/iterator/istream_line_iterator.hpp:    friend class input_iterator_core_access;
+test/utils/iterator/token_iterator.hpp:    friend class input_iterator_core_access;
+test/utils/iterator/token_iterator.hpp:    friend class input_iterator_core_access;
+test/utils/lazy_ostream.hpp:    friend std::ostream&    operator<<( std::ostream& ostr, lazy_ostream const& o ) { return o( ostr ); }
+test/utils/runtime/file/config_file.hpp:    friend std::ostream& operator<<( std::ostream& os, parameter const& );
+test/utils/runtime/file/config_file_iterator.hpp:    friend class unit_test::input_iterator_core_access;
+test/utils/trivial_singleton.hpp:friend class boost::unit_test::singleton<type>; \
+thread/detail/thread.hpp:        friend inline
+thread/detail/thread.hpp:        friend class thread;
+thread/detail/thread.hpp:        friend id BOOST_THREAD_DECL this_thread::get_id() BOOST_NOEXCEPT;
+thread/detail/thread.hpp:#ifndef BOOST_NO_MEMBER_TEMPLATE_FRIENDS
+thread/detail/thread.hpp:        friend BOOST_SYMBOL_VISIBLE
+thread/detail/thread.hpp:#if !defined(BOOST_NO_IOSTREAM) && defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+thread/detail/thread_interruption.hpp:          friend class restore_interruption;
+thread/externally_locked_stream.hpp:    friend class externally_locked_stream<Stream, RecursiveMutex> ;
+thread/future.hpp:        friend class shared_future<R>;
+thread/future.hpp:        friend class promise<R>;
+thread/future.hpp:        friend struct detail::future_continuation;
+thread/future.hpp:        template <class> friend class packaged_task; // todo check if this works in windows
+thread/future.hpp:        friend class packaged_task<R>;
+thread/future.hpp:        friend class detail::future_waiter;
+thread/future.hpp:        friend BOOST_THREAD_FUTURE<Rp>
+thread/future.hpp:        friend BOOST_THREAD_FUTURE<Rp>
+thread/future.hpp:        friend class detail::future_waiter;
+thread/future.hpp:        friend class promise<R>;
+thread/future.hpp:        template <class> friend class packaged_task;// todo check if this works in windows
+thread/future.hpp:        friend class packaged_task<R>;
+thread/lock_types.hpp:    friend class shared_lock<Mutex> ;
+thread/lock_types.hpp:    friend class upgrade_lock<Mutex> ;
+thread/lock_types.hpp:    friend class shared_lock<Mutex> ;
+thread/lock_types.hpp:    friend class unique_lock<Mutex> ;
+thread/pthread/once.hpp:      friend
+thread/synchronized_value.hpp:      friend class synchronized_value;
+thread/synchronized_value.hpp:      friend class synchronized_value;
+thread/win32/condition_variable.hpp:            friend void intrusive_ptr_add_ref(basic_cv_list_entry * p);
+thread/win32/condition_variable.hpp:            friend void intrusive_ptr_release(basic_cv_list_entry * p);
+thread/win32/once.hpp:      friend
+thread/win32/shared_mutex.hpp:            friend bool operator==(state_data const& lhs,state_data const& rhs)
+thread/win32/thread_data.hpp:            friend void intrusive_ptr_add_ref(thread_data_base * p)
+thread/win32/thread_data.hpp:            friend void intrusive_ptr_release(thread_data_base * p)
+token_iterator.hpp:      friend class iterator_core_access;
+tr1/random.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) && !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+tr1/random.hpp:  friend std::basic_ostream<CharT,Traits>&
+tr1/random.hpp:  friend std::basic_istream<CharT,Traits>&
+tr1/random.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) && !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+tr1/random.hpp:   friend std::basic_ostream<CharT,Traits>&
+tr1/random.hpp:   friend std::basic_istream<CharT,Traits>&
+tr1/random.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) && !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+tr1/random.hpp:   friend std::basic_ostream<CharT,Traits>&
+tr1/random.hpp:   friend std::basic_istream<CharT,Traits>&
+tr1/random.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) && !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+tr1/random.hpp:   friend std::basic_ostream<CharT,Traits>&
+tr1/random.hpp:   friend std::basic_istream<CharT,Traits>&
+tr1/random.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) && !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+tr1/random.hpp:   friend std::basic_ostream<CharT,Traits>&
+tr1/random.hpp:   friend std::basic_istream<CharT,Traits>&
+tr1/random.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) && !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+tr1/random.hpp:   friend std::basic_ostream<CharT,Traits>&
+tr1/random.hpp:   friend std::basic_istream<CharT,Traits>&
+typeof/dmc/typeof_impl.hpp:# define BOOST_TYPEOF_NEXT_INDEX(next) friend char (*encode_index(encode_counter<next>*))[next];
+typeof/msvc/typeof_impl.hpp:# define BOOST_TYPEOF_NEXT_INDEX(next) friend char (*encode_index(encode_counter<next>*))[next];
+units/base_dimension.hpp:/// will work with friend functions defined inline.
+units/base_dimension.hpp:        friend Derived* 
+units/base_dimension.hpp:        friend detail::yes 
+units/base_dimension.hpp:        friend detail::yes 
+units/base_unit.hpp:/// will work with friend functions defined inline.
+units/base_unit.hpp:        friend Derived* 
+units/base_unit.hpp:        friend detail::yes 
+units/base_unit.hpp:        friend detail::yes 
+unordered/detail/buckets.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+unordered/detail/buckets.hpp:        friend struct boost::unordered::iterator_detail::cl_iterator;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::iterator_detail::l_iterator
+unordered/detail/buckets.hpp:        friend bool operator==(cl_iterator const& x, cl_iterator const& y) {
+unordered/detail/buckets.hpp:        friend bool operator!=(cl_iterator const& x, cl_iterator const& y) {
+unordered/detail/buckets.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+unordered/detail/buckets.hpp:        friend struct boost::unordered::iterator_detail::c_iterator;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::iterator_detail::l_iterator;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::iterator_detail::cl_iterator;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::detail::table;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::detail::table_impl;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::detail::grouped_table_impl;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::iterator_detail::iterator<Node>;
+unordered/detail/buckets.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+unordered/detail/buckets.hpp:        friend struct boost::unordered::detail::table;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::detail::table_impl;
+unordered/detail/buckets.hpp:        friend struct boost::unordered::detail::grouped_table_impl;
+unordered/detail/buckets.hpp:        friend bool operator==(c_iterator const& x, c_iterator const& y) {
+unordered/detail/buckets.hpp:        friend bool operator!=(c_iterator const& x, c_iterator const& y) {
+unordered/detail/buckets.hpp:        friend class boost::unordered::detail::set_hash_functions<H, P>;
+unordered/unordered_map.hpp:                              // friend declaration refers to a specialization
+unordered/unordered_map.hpp:        friend bool operator==<K,T,H,P,A>(
+unordered/unordered_map.hpp:        friend bool operator!=<K,T,H,P,A>(
+unordered/unordered_map.hpp:        friend bool operator==<K,T,H,P,A>(
+unordered/unordered_map.hpp:        friend bool operator!=<K,T,H,P,A>(
+unordered/unordered_set.hpp:                              // friend declaration refers to a specialization
+unordered/unordered_set.hpp:        friend bool operator==<T,H,P,A>(
+unordered/unordered_set.hpp:        friend bool operator!=<T,H,P,A>(
+unordered/unordered_set.hpp:        friend bool operator==<T,H,P,A>(
+unordered/unordered_set.hpp:        friend bool operator!=<T,H,P,A>(
+utility/result_of.hpp:  friend result_of_private_type operator,(result_of_private_type, result_of_weird_type);
+variant/detail/initializer.hpp:        friend class initializer_node;
+variant/variant.hpp:// NOTE: This needs to be a friend of variant, as it needs access to
+variant/variant.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+variant/variant.hpp:    friend class convert_copy_into;
+variant/variant.hpp:    friend class convert_move_into;
+variant/variant.hpp:#   if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+variant/variant.hpp:    friend class detail::variant::backup_assigner;
+variant/variant.hpp:    friend class assigner;
+variant/variant.hpp:    friend class move_assigner;
+variant/variant.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+variant/variant.hpp:    friend class variant;
+variant/variant.hpp:#else// defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+variant/variant.hpp:#endif// !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+wave/cpp_context.hpp:#if !defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
+wave/cpp_context.hpp:    friend class boost::wave::pp_iterator<context>;
+wave/cpp_context.hpp:    friend class boost::wave::impl::pp_iterator_functor<context>;
+wave/cpp_context.hpp:    friend class boost::serialization::access;
+wave/cpplexer/cpp_lex_token.hpp:    friend bool operator== (token_data const& lhs, token_data const& rhs)
+wave/cpplexer/cpp_lex_token.hpp:    friend class boost::serialization::access;
+wave/cpplexer/cpp_lex_token.hpp:    friend bool operator== (lex_token const& lhs, lex_token const& rhs)
+wave/cpplexer/cpp_lex_token.hpp:    friend class boost::serialization::access;
+wave/grammars/cpp_expression_value.hpp:    friend int_literal_type as_int(closure_value const& v)
+wave/grammars/cpp_expression_value.hpp:    friend uint_literal_type as_uint(closure_value const& v)
+wave/grammars/cpp_expression_value.hpp:    friend int_literal_type as_long(closure_value const& v) 
+wave/grammars/cpp_expression_value.hpp:    friend uint_literal_type as_ulong(closure_value const& v)
+wave/grammars/cpp_expression_value.hpp:    friend bool as_bool(closure_value const& v)
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend closure_value 
+wave/grammars/cpp_expression_value.hpp:    friend std::ostream&
+wave/token_ids.hpp:    T_FRIEND       = TOKEN_FROM_ID(330, KeywordTokenType),
+wave/util/cpp_include_paths.hpp:    friend class boost::serialization::access;
+wave/util/cpp_iterator.hpp:    friend class pp_iterator<ContextT>;
+wave/util/cpp_macromap.hpp:    friend class boost::serialization::access;
+wave/util/file_position.hpp:    friend class boost::serialization::access;
+wave/util/flex_string.hpp:    friend struct Invariant;
+wave/util/functor_input.hpp:       friend struct Data;
+wave/util/macro_definition.hpp:    friend class boost::serialization::access;
+wave/util/symbol_table.hpp:    friend class boost::serialization::access;
+xpressive/basic_regex.hpp:    friend struct detail::core_access<BidiIter>;
+xpressive/detail/core/list.hpp:            friend struct list<T>;
+xpressive/detail/core/list.hpp:            friend class boost::iterator_core_access;
+xpressive/detail/core/results_cache.hpp:        friend struct results_cache<BidiIter>;
+xpressive/detail/core/results_cache.hpp:        friend struct match_results<BidiIter>;
+xpressive/detail/core/results_cache.hpp:        friend struct results_cache<BidiIter>;
+xpressive/detail/core/results_cache.hpp:        friend struct xpressive::match_results<BidiIter>;
+xpressive/detail/core/sub_match_vector.hpp:    friend struct detail::core_access<BidiIter>;
+xpressive/detail/dynamic/dynamic.hpp:    friend struct sequence<BidiIter>;
+xpressive/detail/dynamic/matchable.hpp:    friend bool operator ==(shared_matchable<BidiIter> const &left, shared_matchable<BidiIter> const &right)
+xpressive/detail/dynamic/matchable.hpp:    friend bool operator !=(shared_matchable<BidiIter> const &left, shared_matchable<BidiIter> const &right)
+xpressive/detail/utility/counted_base.hpp:        friend struct counted_base_access<Derived>;
+xpressive/detail/utility/tracking_ptr.hpp:    friend class boost::iterator_core_access;
+xpressive/detail/utility/tracking_ptr.hpp:    friend std::ostream &operator <<(std::ostream &sout, enable_reference_tracking<Derived> const &that)
+xpressive/detail/utility/tracking_ptr.hpp:    friend struct tracking_ptr<Derived>;
+xpressive/match_results.hpp:    friend bool set_transform(case_converting_iterator &iter, transform_op trans, transform_scope scope)
+xpressive/match_results.hpp:    friend struct detail::core_access<BidiIter>;
+xpressive/regex_iterator.hpp:    friend bool operator ==(regex_iterator<BidiIter> const &left, regex_iterator<BidiIter> const &right)
+xpressive/regex_iterator.hpp:    friend bool operator !=(regex_iterator<BidiIter> const &left, regex_iterator<BidiIter> const &right)
+xpressive/regex_token_iterator.hpp:    friend bool operator ==(regex_token_iterator<BidiIter> const &left, regex_token_iterator<BidiIter> const &right)
+xpressive/regex_token_iterator.hpp:    friend bool operator !=(regex_token_iterator<BidiIter> const &left, regex_token_iterator<BidiIter> const &right)
